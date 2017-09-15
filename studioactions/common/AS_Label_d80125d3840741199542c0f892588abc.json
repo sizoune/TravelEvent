@@ -1,0 +1,29 @@
+{
+    "AS_Label_d80125d3840741199542c0f892588abc": {
+        "id": "AS_Label_d80125d3840741199542c0f892588abc",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "uwuc96dbde39684300bf87de81f7ac7372",
+            "type": "userwidgets",
+            "KUID": "uc96dbde39684300bf87de81f7ac7372"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ccfed4f7bc2e4ef1bb69a573fea384a9",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.priceFilter(eventobject);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

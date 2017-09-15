@@ -1,0 +1,298 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {
+            "imgCall": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "phone_icon.png"
+            },
+            "imgGetDirections": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "directions_icon.png"
+            },
+            "lblCall": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Call"
+            },
+            "lblGetDirections": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Get Directions"
+            }
+        },
+        {
+            "imgCall": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "phone_icon.png"
+            },
+            "imgGetDirections": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "directions_icon.png"
+            },
+            "lblCall": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Call"
+            },
+            "lblGetDirections": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Get Directions"
+            }
+        },
+        {
+            "imgCall": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "phone_icon.png"
+            },
+            "imgGetDirections": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "directions_icon.png"
+            },
+            "lblCall": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Call"
+            },
+            "lblGetDirections": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Get Directions"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "88%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_render_": true,
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "android": {
+        "render": true
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "00",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segListView",
+    "ide_onRowClick": "AS_Segment_c4e1a92347534674b4b9d9d1dbe75d1c",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none"
+        },
+        "render": true
+    },
+    "isvisible": true,
+    "kuid": "fb507c25e8274d42abfd81dc99ab9a5c",
+    "masterdata": {},
+    "mobile": {
+        "_data_": [
+            {
+                "img1": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "star_empty.png"
+                },
+                "img2": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "star_empty.png"
+                },
+                "img3": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "star_empty.png"
+                },
+                "img4": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "star_empty.png"
+                },
+                "img5": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "star_empty.png"
+                },
+                "imgCall": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": ""
+                },
+                "imgGetDirections": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": ""
+                },
+                "imgItem": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "imagedrag.png"
+                },
+                "lblAddress": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblCall": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblDistance": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblGetDirections": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblPlaceName": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblPlaceType": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblRate": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblTiming": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                }
+            }
+        ],
+        "rowTemplateId": "i9d13ccd954c4730b9f200b42fbcd7ef",
+        "rowtemplate": "flexHolder",
+        "widgetdatamap": {
+            "flexHolder": "flexHolder",
+            "flexLeftPane": "flexLeftPane",
+            "flexRightPane": "flexRightPane",
+            "flxBottomCard": "flxBottomCard",
+            "flxCall": "flxCall",
+            "flxContainer": "flxContainer",
+            "flxDirections": "flxDirections",
+            "flxHolder1": "flxHolder1",
+            "flxRating": "flxRating",
+            "flxTopCard": "flxTopCard",
+            "img1": "img1",
+            "img2": "img2",
+            "img3": "img3",
+            "img4": "img4",
+            "img5": "img5",
+            "imgCall": "imgCall",
+            "imgGetDirections": "imgGetDirections",
+            "imgItem": "imgItem",
+            "lblAddress": "lblAddress",
+            "lblCall": "lblCall",
+            "lblDistance": "lblDistance",
+            "lblGetDirections": "lblGetDirections",
+            "lblLine": "lblLine",
+            "lblPlaceName": "lblPlaceName",
+            "lblPlaceType": "lblPlaceType",
+            "lblRate": "lblRate",
+            "lblTiming": "lblTiming"
+        }
+    },
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxListView",
+    "pf": "userwidgetmodel",
+    "retainselection": false,
+    "rowTemplateId": "i9d13ccd954c4730b9f200b42fbcd7ef",
+    "rowcounter": 0,
+    "rowfocusskin": "sa1074641bcb443b8a06938e0ad1668c",
+    "rowskin": "sa8cf83de3d044c4bfd54c148911abec",
+    "rowtemplate": "flexHolder",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s91841f179874d67850a5f19d914a8c5",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "34495e46",
+    "separatorrequired": false,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "spaan": {
+        "render": true
+    },
+    "spabb": {
+        "render": true
+    },
+    "spaip": {
+        "render": true
+    },
+    "spawinphone8": {
+        "render": true
+    },
+    "viewtype": "tableview",
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flexHolder": "flexHolder",
+        "flexLeftPane": "flexLeftPane",
+        "flexRightPane": "flexRightPane",
+        "flxBottomCard": "flxBottomCard",
+        "flxCall": "flxCall",
+        "flxContainer": "flxContainer",
+        "flxDirections": "flxDirections",
+        "flxHolder1": "flxHolder1",
+        "flxRating": "flxRating",
+        "flxTopCard": "flxTopCard",
+        "img1": "img1",
+        "img2": "img2",
+        "img3": "img3",
+        "img4": "img4",
+        "img5": "img5",
+        "imgCall": "imgCall",
+        "imgGetDirections": "imgGetDirections",
+        "imgItem": "imgItem",
+        "lblAddress": "lblAddress",
+        "lblCall": "lblCall",
+        "lblDistance": "lblDistance",
+        "lblGetDirections": "lblGetDirections",
+        "lblLine": "lblLine",
+        "lblPlaceName": "lblPlaceName",
+        "lblPlaceType": "lblPlaceType",
+        "lblRate": "lblRate",
+        "lblTiming": "lblTiming"
+    },
+    "winphone8": {
+        "render": true
+    },
+    "zindex": 1
+}

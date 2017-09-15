@@ -1,0 +1,181 @@
+{
+    "classname": "placelocator",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "paramList": [
+                        {
+                            "name": "menuData"
+                        }
+                    ],
+                    "propertyKey": "createDynamicMenu",
+                    "pw": {
+                        "displayName": "createDynamicMenu",
+                        "uiRepresentation": "Label-Label-Right"
+                    },
+                    "type": "api"
+                },
+                {
+                    "paramList": [
+                        {
+                            "name": "selectedIndex"
+                        }
+                    ],
+                    "propertyKey": "getDirection",
+                    "pw": {
+                        "displayName": "getDirection",
+                        "uiRepresentation": "Label-Label-Right"
+                    },
+                    "type": "api"
+                },
+                {
+                    "paramList": [
+                        {
+                            "name": "selectedIndex"
+                        }
+                    ],
+                    "propertyKey": "callInvoked",
+                    "pw": {
+                        "displayName": "callInvoked",
+                        "uiRepresentation": "Label-Label-Right"
+                    },
+                    "type": "api"
+                }
+            ]
+        },
+        "events": {
+            "custom": [
+                {
+                    "paramList": [
+                        {
+                            "name": "placeDetails"
+                        }
+                    ],
+                    "propertyKey": "getPlaceDetails",
+                    "pw": {
+                        "displayName": "getPlaceDetails",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "mea6ed971f214c2db805fe7ec8b0dc6b",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "null",
+                    "originalPropertyKey": "googleAPIKey",
+                    "propertyKey": "googleAPIKey",
+                    "pw": {
+                        "displayName": "Google API Key",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "mea6ed971f214c2db805fe7ec8b0dc6b",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "2000",
+                    "originalPropertyKey": "defaultSearchRadius",
+                    "propertyKey": "defaultSearchRadius",
+                    "pw": {
+                        "displayName": "Default Search Radius",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "mea6ed971f214c2db805fe7ec8b0dc6b",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Current Location",
+                    "originalPropertyKey": "currentLocationLabelText",
+                    "propertyKey": "currentLocationLabelText",
+                    "pw": {
+                        "displayName": "Search Suggestion text for Current Location",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "mea6ed971f214c2db805fe7ec8b0dc6b",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "current_location_mark.png",
+                    "originalPropertyKey": "currentLocationImage",
+                    "propertyKey": "currentLocationImage",
+                    "pw": {
+                        "displayName": "Current Location map Pin image",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "mea6ed971f214c2db805fe7ec8b0dc6b",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "originalPropertyKey": "searchButtonText",
+                    "propertyKey": "searchButtonText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Search Button Text",
+                        "srcWidget": "MenuComponent",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "i72533ec33ab4512bcc93b169a09e155"
+                },
+                {
+                    "access": "Enable",
+                    "originalPropertyKey": "titleText",
+                    "propertyKey": "suggestedPlaceTypesHeading",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Place Categories heading",
+                        "srcWidget": "MenuComponent",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "i72533ec33ab4512bcc93b169a09e155"
+                },
+                {
+                    "access": "Enable",
+                    "originalPropertyKey": "locationIcon",
+                    "propertyKey": "locationIcon",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "displayName": "Location Icon",
+                        "srcWidget": "imgLocation",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "ecf9192cfcb84a7bb636c34d7f8e69cd"
+                }
+            ]
+        }
+    },
+    "namespace": "com.konymp",
+    "version": "1.0.0"
+}

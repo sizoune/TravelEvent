@@ -1,0 +1,29 @@
+{
+    "AS_Label_e7b0d5978b1340b2ba8af5a56ad87fac": {
+        "id": "AS_Label_e7b0d5978b1340b2ba8af5a56ad87fac",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "uwuc96dbde39684300bf87de81f7ac7372",
+            "type": "userwidgets",
+            "KUID": "uc96dbde39684300bf87de81f7ac7372"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__g63a2907d7a84b26a88154a3a0e12bf9",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.priceFilter(eventobject);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

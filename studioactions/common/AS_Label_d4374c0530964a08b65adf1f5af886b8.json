@@ -1,0 +1,29 @@
+{
+    "AS_Label_d4374c0530964a08b65adf1f5af886b8": {
+        "id": "AS_Label_d4374c0530964a08b65adf1f5af886b8",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "uwuc96dbde39684300bf87de81f7ac7372",
+            "type": "userwidgets",
+            "KUID": "uc96dbde39684300bf87de81f7ac7372"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__j5de22e0a71e44528c25b4cec72036c2",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.changeSortSelection(eventobject);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

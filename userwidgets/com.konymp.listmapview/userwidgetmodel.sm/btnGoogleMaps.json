@@ -1,0 +1,50 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "15%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s1e0037ab9b6426d83e6c45977d78bf9",
+    "_text_": "Use Google Maps",
+    "_top_": {
+        "type": "string",
+        "value": "3%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "80%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s1e0037ab9b6426d83e6c45977d78bf9",
+    "id": "btnGoogleMaps",
+    "ide_onClick": "AS_Button_ac198de7413b424789592b69f97aa64d",
+    "info": null,
+    "isvisible": true,
+    "kuid": "a6e041476af84d628958e22e5fa4cf16",
+    "name": "kony.ui.Button",
+    "parent": "flxOptions",
+    "pf": "userwidgetmodel",
+    "wType": "Button",
+    "zindex": 1
+}

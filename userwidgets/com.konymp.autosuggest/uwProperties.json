@@ -1,0 +1,185 @@
+{
+    "classname": "autosuggest",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "paramList": [
+                        {
+                            "name": "data"
+                        },
+                        {
+                            "name": "dataMap"
+                        }
+                    ],
+                    "propertyKey": "setDataToSegment",
+                    "pw": {
+                        "displayName": "setDataToSegment",
+                        "uiRepresentation": "Label-Label-Right"
+                    },
+                    "type": "api"
+                },
+                {
+                    "paramList": [],
+                    "propertyKey": "getCurrentLocationCoordinates",
+                    "pw": {
+                        "displayName": "getCurrentLocationCoordinates",
+                        "uiRepresentation": "Label-Label-Right"
+                    },
+                    "type": "api"
+                }
+            ]
+        },
+        "events": {
+            "custom": [
+                {
+                    "paramList": [
+                        {
+                            "name": "successResponse"
+                        }
+                    ],
+                    "propertyKey": "fetchCurrentLocationSuccess",
+                    "pw": {
+                        "displayName": "fetchCurrentLocationSuccess",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "f5de5a3e45a3448cabedbbc1ab004a53",
+                    "type": "event"
+                },
+                {
+                    "paramList": [
+                        {
+                            "name": "failureMessage"
+                        }
+                    ],
+                    "propertyKey": "fetchCurrentLocationFailure",
+                    "pw": {
+                        "displayName": "fetchCurrentLocationFailure",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "f5de5a3e45a3448cabedbbc1ab004a53",
+                    "type": "event"
+                },
+                {
+                    "paramList": [
+                        {
+                            "name": "data"
+                        }
+                    ],
+                    "propertyKey": "addressSelected",
+                    "pw": {
+                        "displayName": "addressSelected",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "f5de5a3e45a3448cabedbbc1ab004a53",
+                    "type": "event"
+                },
+                {
+                    "paramList": [],
+                    "propertyKey": "currentLocationSelectionCallback",
+                    "pw": {
+                        "displayName": "currentLocationSelectionCallback",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "f5de5a3e45a3448cabedbbc1ab004a53",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "sknFlexffffff",
+                    "originalPropertyKey": "currentLocationSkin",
+                    "propertyKey": "currentLocationSkin",
+                    "pw": {
+                        "displayName": "Current Location Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "f5de5a3e45a3448cabedbbc1ab004a53",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "originalPropertyKey": "src",
+                    "propertyKey": "currentLocationImage",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "displayName": "Current Location Image",
+                        "srcWidget": "imgCurrentLocation",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "ea7903ec90b04fc8800b2bd5ef01c4ca"
+                },
+                {
+                    "access": "Enable",
+                    "originalPropertyKey": "text",
+                    "propertyKey": "currentLocationText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Current Location Text",
+                        "srcWidget": "lblCurrentLocation",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "baa5b00e9eb247199926c97d9d39a692"
+                },
+                {
+                    "access": "Enable",
+                    "originalPropertyKey": "isVisible",
+                    "propertyKey": "currentLocationVisibility",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Current Location Visibility",
+                        "srcWidget": "imgCurrentLocation",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "ea7903ec90b04fc8800b2bd5ef01c4ca"
+                },
+                {
+                    "access": "Enable",
+                    "originalPropertyKey": "rowTemplate",
+                    "propertyKey": "autoSuggestRowTemplate",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "companionKeys": [
+                            "sectionHeaderTemplate",
+                            "data"
+                        ],
+                        "displayName": "AutoSuggest RowTemplate",
+                        "srcWidget": "segAutosuggest",
+                        "type": "template",
+                        "uiRepresentation": "Label-Combobox",
+                        "wType": "Segment"
+                    },
+                    "srcWgtKUID": "f261735ce3ea41e9a88c84c420b59f2e"
+                }
+            ]
+        }
+    },
+    "namespace": "com.konymp",
+    "version": "1.0.0"
+}

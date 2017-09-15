@@ -1,0 +1,23 @@
+{
+    "AS_Button_h47883485f284b7398c0bd4f4b8a581e": {
+        "id": "AS_Button_h47883485f284b7398c0bd4f4b8a581e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "uwuda473f207e44468bc0d86c01f9277cd",
+            "type": "userwidgets",
+            "KUID": "uda473f207e44468bc0d86c01f9277cd"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__fd06795d7d8142c39aee2b03632910e1",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.closeRoutes();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}
