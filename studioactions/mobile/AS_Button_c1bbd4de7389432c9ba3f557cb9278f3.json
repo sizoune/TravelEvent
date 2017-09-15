@@ -1,0 +1,27 @@
+{
+    "AS_Button_c1bbd4de7389432c9ba3f557cb9278f3": {
+        "id": "AS_Button_c1bbd4de7389432c9ba3f557cb9278f3",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLogin",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a71509ef519045d788bd9159bf010714"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___bbcff7c56a4e4f50a875538714f64989",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "getServerResponceOption",
+            "display": "getServerResponceOption",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null
+        }]
+    }
+}
