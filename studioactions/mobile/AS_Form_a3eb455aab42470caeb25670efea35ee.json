@@ -1,0 +1,47 @@
+{
+    "AS_Form_a3eb455aab42470caeb25670efea35ee": {
+        "id": "AS_Form_a3eb455aab42470caeb25670efea35ee",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmOptionLoginSignup",
+            "type": "forms",
+            "platform": null,
+            "KUID": "i634fb3834d4465da80f2022b8c66296"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "MOVE_ACTION____cd770cd82724494e8a9b92b1aabefdf6",
+            "type": "MOVE_ACTION",
+            "itemType": "FORM",
+            "itemId": "frmOptionLoginSignup",
+            "widgetId": "flxContent",
+            "itemKUID": "i634fb3834d4465da80f2022b8c66296",
+            "widgetKUID": "g14dec0565554bb49c7af77a5ac6efeb",
+            "wType": "FlexContainer",
+            "animationObject": {
+                "centerY": "50%",
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                }
+            },
+            "config": {
+                "delay": "200",
+                "iterationCount": 1,
+                "fillMode": "kony.anim.FILL_MODE_FORWARDS",
+                "duration": "1000"
+            },
+            "start": "Immediately",
+            "animationId": "MOVE_ACTION____cd770cd82724494e8a9b92b1aabefdf6",
+            "displayAnimationId": "MOVE_ACTION____cd770cd82724494e8a9b92b1aabefdf6",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null,
+            "widgetPath": "this.view.flxContent"
+        }]
+    }
+}
