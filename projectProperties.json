@@ -2,8 +2,15 @@
     "appidkey": "TravelEvent",
     "mwaddrkey": "",
     "isNewAppWithRespectToAndroidPackageName": "",
+    "defaulttheme": "defaultTheme",
     "apppackagekey": "",
     "appaddrkey": "",
+    "nativeContainerProperties": {
+        "isModified": false,
+        "isEnableJSContainer": false,
+        "isEnableJSContainerAndroid": false,
+        "isEnableJSContaineriOS": false
+    },
     "appnamekey": "TravelEvent",
     "currentgaversion": "7.3.0",
     "appversionkey": "1.0.0",
@@ -21,6 +28,7 @@
     "mastersProperties": {
         "mastersVersion": "2.0.0"
     },
+
     "project_version": "sprint27",
     "mwportkey": "",
     "category": "app",
@@ -37,100 +45,100 @@
         "tablet": {
             "data": [
                 {
-                    "id": "appmenuitemid1",
-                    "title": "Item 1",
-                    "icon": {
-                        "default": "option1.png"
+                    "windows8": {
+                        "appBarButtonStyle": "No Style",
+                        "position": "BOTTOM_LEFT"
                     },
                     "android": {
                         "showAsFlag": 0
                     },
                     "kuid": "a4c51590d07447f9bf182d8fffaa748f",
-                    "windows8": {
-                        "position": "BOTTOM_LEFT",
-                        "appBarButtonStyle": "No Style"
-                    }
+                    "icon": {
+                        "default": "option1.png"
+                    },
+                    "id": "appmenuitemid1",
+                    "title": "Item 1"
                 },
                 {
-                    "id": "appmenuitemid2",
-                    "title": "Item 2",
-                    "icon": {
-                        "default": "option2.png"
+                    "windows8": {
+                        "appBarButtonStyle": "No Style",
+                        "position": "BOTTOM_LEFT"
                     },
                     "android": {
                         "showAsFlag": 0
                     },
                     "kuid": "c2b4c038c75547cc992432f90f83ff85",
-                    "windows8": {
-                        "position": "BOTTOM_LEFT",
-                        "appBarButtonStyle": "No Style"
-                    }
+                    "icon": {
+                        "default": "option2.png"
+                    },
+                    "id": "appmenuitemid2",
+                    "title": "Item 2"
                 },
                 {
-                    "id": "appmenuitemid3",
-                    "title": "Item 3",
-                    "icon": {
-                        "default": "option3.png"
+                    "windows8": {
+                        "appBarButtonStyle": "No Style",
+                        "position": "BOTTOM_LEFT"
                     },
                     "android": {
                         "showAsFlag": 0
                     },
                     "kuid": "c74d19fdea714ff7a1407c8e7cb055e0",
-                    "windows8": {
-                        "position": "BOTTOM_LEFT",
-                        "appBarButtonStyle": "No Style"
-                    }
+                    "icon": {
+                        "default": "option3.png"
+                    },
+                    "id": "appmenuitemid3",
+                    "title": "Item 3"
                 },
                 {
-                    "id": "appmenuitemid4",
-                    "title": "Item 4",
-                    "icon": {
-                        "default": "option4.png"
+                    "windows8": {
+                        "appBarButtonStyle": "No Style",
+                        "position": "BOTTOM_LEFT"
                     },
                     "android": {
                         "showAsFlag": 0
                     },
                     "kuid": "a42d6ce2847040f28e20705aa600d7a3",
-                    "windows8": {
-                        "position": "BOTTOM_LEFT",
-                        "appBarButtonStyle": "No Style"
-                    }
+                    "icon": {
+                        "default": "option4.png"
+                    },
+                    "id": "appmenuitemid4",
+                    "title": "Item 4"
                 }
             ]
         },
         "desktop": {
             "data": [
                 {
-                    "id": "appmenuitemid1",
-                    "title": "Item 1",
+                    "kuid": "j6b5bc921d774138980d828077e2248d",
                     "icon": {
                         "default": "option1.png"
                     },
-                    "kuid": "j6b5bc921d774138980d828077e2248d"
+                    "id": "appmenuitemid1",
+                    "title": "Item 1"
                 },
                 {
-                    "id": "appmenuitemid2",
-                    "title": "Item 2",
+                    "kuid": "f8307930489a4fe0bfaca91f5fb8ecfc",
                     "icon": {
                         "default": "option2.png"
                     },
-                    "kuid": "f8307930489a4fe0bfaca91f5fb8ecfc"
+                    "id": "appmenuitemid2",
+                    "title": "Item 2"
                 },
                 {
-                    "id": "appmenuitemid3",
-                    "title": "Item 3",
+                    "kuid": "c46a2eb469c1462984681b886f60dedf",
                     "icon": {
                         "default": "option3.png"
                     },
-                    "kuid": "c46a2eb469c1462984681b886f60dedf"
+                    "id": "appmenuitemid3",
+                    "title": "Item 3"
                 },
                 {
-                    "id": "appmenuitemid4",
-                    "title": "Item 4",
+                    "kuid": "ffc2986801ca45088872c5acce68a52d",
                     "icon": {
                         "default": "option4.png"
                     },
-                    "kuid": "ffc2986801ca45088872c5acce68a52d"
+                    "id": "appmenuitemid4",
+                    "title": "Item 4"
                 }
             ]
         },
@@ -141,52 +149,57 @@
         "mobile": {
             "data": [
                 {
-                    "id": "appmenuitemid1",
-                    "title": "Item 1",
-                    "icon": {
-                        "default": "option1.png"
-                    },
                     "kuid": "j2a5227952594f71b35a1911ec876807",
                     "android": {
                         "showAsFlag": 0
-                    }
+                    },
+                    "icon": {
+                        "default": "option1.png"
+                    },
+                    "id": "appmenuitemid1",
+                    "title": "Item 1"
                 },
                 {
-                    "id": "appmenuitemid2",
-                    "title": "Item 2",
-                    "icon": {
-                        "default": "option2.png"
-                    },
                     "kuid": "je78847efc9b4633a0edc7f78edd2975",
                     "android": {
                         "showAsFlag": 0
-                    }
+                    },
+                    "icon": {
+                        "default": "option2.png"
+                    },
+                    "id": "appmenuitemid2",
+                    "title": "Item 2"
                 },
                 {
-                    "id": "appmenuitemid3",
-                    "title": "Item 3",
-                    "icon": {
-                        "default": "option3.png"
-                    },
                     "kuid": "f62968b074e5468ebc29126728eb29de",
                     "android": {
                         "showAsFlag": 0
-                    }
+                    },
+                    "icon": {
+                        "default": "option3.png"
+                    },
+                    "id": "appmenuitemid3",
+                    "title": "Item 3"
                 },
                 {
-                    "id": "appmenuitemid4",
-                    "title": "Item 4",
-                    "icon": {
-                        "default": "option4.png"
-                    },
                     "kuid": "h8722cd04f0e4d869f4dc889ea86a650",
                     "android": {
                         "showAsFlag": 0
-                    }
+                    },
+                    "icon": {
+                        "default": "option4.png"
+                    },
+                    "id": "appmenuitemid4",
+                    "title": "Item 4"
                 }
             ]
         },
         "skin": null,
         "osPlatform": ""
-    }
+    },
+    "project_version": "sprint27",
+    "mwportkey": "",
+    "category": "app",
+    "createdVizVersion": "7.3.0",
+    "mwhttpsportkey": ""
 }
