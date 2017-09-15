@@ -1,0 +1,165 @@
+{
+    "classname": "menucomponent",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "paramList": [
+                        {
+                            "name": "booleanValue"
+                        }
+                    ],
+                    "propertyKey": "enableDisableSearchButton",
+                    "pw": {
+                        "displayName": "enableDisableSearchButton",
+                        "uiRepresentation": "Label-Label-Right"
+                    },
+                    "type": "api"
+                },
+                {
+                    "paramList": [],
+                    "propertyKey": "getSelectedCategory",
+                    "pw": {
+                        "displayName": "getSelectedCategory",
+                        "uiRepresentation": "Label-Label-Right"
+                    },
+                    "type": "api"
+                },
+                {
+                    "paramList": [],
+                    "propertyKey": "forceLayoutTheComponent",
+                    "pw": {
+                        "displayName": "forceLayoutTheComponent",
+                        "uiRepresentation": "Label-Label-Right"
+                    },
+                    "type": "api"
+                },
+                {
+                    "paramList": [],
+                    "propertyKey": "creatDynamicMenu",
+                    "pw": {
+                        "displayName": "creatDynamicMenu",
+                        "uiRepresentation": "Label-Label-Right"
+                    },
+                    "type": "api"
+                }
+            ]
+        },
+        "events": {
+            "custom": [
+                {
+                    "paramList": [
+                        {
+                            "name": "isSelected"
+                        }
+                    ],
+                    "propertyKey": "selectedUnselectedImage",
+                    "pw": {
+                        "displayName": "selectedUnselectedImage",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "m6a60d74349546fcb37b20aa5149b982",
+                    "type": "event"
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "originalPropertyKey": "onClick",
+                    "propertyKey": "onSearchSelectionClicked",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onSearchSelectionClicked",
+                        "srcWidget": "btnSearchSelection",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "b77d0d85cfca4ee78543b7f01401c886"
+                }
+            ]
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "sknFlexffffff",
+                    "originalPropertyKey": "menuContainerSkin",
+                    "propertyKey": "menuContainerSkin",
+                    "pw": {
+                        "displayName": "Menu Container Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "m6a60d74349546fcb37b20aa5149b982",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "originalPropertyKey": "isVisible",
+                    "propertyKey": "titleVisibility",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Title Visibility",
+                        "srcWidget": "lblTitle",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "e3dca6f9afe943dfba08fb1fa00eb12c"
+                },
+                {
+                    "access": "Enable",
+                    "originalPropertyKey": "text",
+                    "propertyKey": "titleText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Title Text",
+                        "srcWidget": "lblTitle",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "e3dca6f9afe943dfba08fb1fa00eb12c"
+                },
+                {
+                    "access": "Enable",
+                    "originalPropertyKey": "isVisible",
+                    "propertyKey": "searchSelectionVisibility",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Search Selection Visibility",
+                        "srcWidget": "flxSearchSelection",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "a33ffd9aa702498cab49aa8a5ed6c04c"
+                },
+                {
+                    "access": "Enable",
+                    "originalPropertyKey": "text",
+                    "propertyKey": "searchButtonText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Search Button Text",
+                        "srcWidget": "btnSearchSelection",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "b77d0d85cfca4ee78543b7f01401c886"
+                }
+            ]
+        }
+    },
+    "namespace": "com.konymp",
+    "version": "1.0.0"
+}

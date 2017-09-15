@@ -1,0 +1,23 @@
+{
+    "AS_Button_ac198de7413b424789592b69f97aa64d": {
+        "id": "AS_Button_ac198de7413b424789592b69f97aa64d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "uwu10ed851c8be432abcc486da652268dd",
+            "type": "userwidgets",
+            "KUID": "u10ed851c8be432abcc486da652268dd"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e7c3bb0c98a2467eb3f1587ff75b1bd8",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.openGoogleMaps();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

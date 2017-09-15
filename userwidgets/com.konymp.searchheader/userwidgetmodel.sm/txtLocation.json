@@ -1,0 +1,82 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "65%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        8,
+        0,
+        8,
+        0
+    ],
+    "_placeholder_": "",
+    "_skin_": "s6cef28e0bed4b1fa6891873879291c0",
+    "_text_": "Current Location",
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "android": {
+        "psp": {
+            "keyboardActionLabel": 3
+        }
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "40%"
+    },
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "focusskin": "s6cef28e0bed4b1fa6891873879291c0",
+    "id": "txtLocation",
+    "ide_onTextChange": "AS_TextField_d40a8ca548054c5fb4e95502852500b2",
+    "ide_onTouchStart": "AS_TextField_d58841e690554303982bed4108691e3b",
+    "info": null,
+    "iphone": {
+        "psp": {
+            "keyboardActionLabel": 1,
+            "showClearButton": false,
+            "showCloseButton": false
+        }
+    },
+    "isvisible": true,
+    "keyboardactionlabel": 3,
+    "keyboardtype": "A",
+    "kuid": "c085fcfab6224c0dbdd1f6ec06a40cbd",
+    "mode": "A",
+    "name": "kony.ui.TextBox2",
+    "paddinginpixel": false,
+    "parent": "flxHeader",
+    "pf": "userwidgetmodel",
+    "placeholderskin": "s10125192d894b838e0bbf5fc3c7e31d",
+    "securetextentry": false,
+    "showclearbutton": false,
+    "textinputmode": "A",
+    "viewtype": "default",
+    "wType": "TextField",
+    "zindex": 1
+}

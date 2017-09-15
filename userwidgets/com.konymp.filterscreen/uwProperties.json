@@ -1,0 +1,89 @@
+{
+    "classname": "filterscreen",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "paramList": [
+                        {
+                            "name": "setDataJSON"
+                        }
+                    ],
+                    "propertyKey": "setDatatoFilterScreen",
+                    "pw": {
+                        "displayName": "setDatatoFilterScreen",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "d4d09bd94f414f6e8a281f7289c2ed88",
+                    "type": "event"
+                },
+                {
+                    "paramList": [
+                        {
+                            "name": "filterData"
+                        }
+                    ],
+                    "propertyKey": "getAppliedFilter",
+                    "pw": {
+                        "displayName": "getAppliedFilter",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "d4d09bd94f414f6e8a281f7289c2ed88",
+                    "type": "event"
+                },
+                {
+                    "paramList": [],
+                    "propertyKey": "resetFilters",
+                    "pw": {
+                        "displayName": "resetFilters",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "d4d09bd94f414f6e8a281f7289c2ed88",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "paramList": [
+                        {
+                            "name": "filterSortDetails"
+                        }
+                    ],
+                    "propertyKey": "customApplyFilter",
+                    "pw": {
+                        "displayName": "customApplyFilter",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "d4d09bd94f414f6e8a281f7289c2ed88",
+                    "type": "event"
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "originalPropertyKey": "onTouchEnd",
+                    "propertyKey": "cancelFilter",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "cancelFilter",
+                        "srcWidget": "lblCancel",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "f2a1cb77724d4957892bb980b107b327"
+                }
+            ]
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konymp",
+    "version": "1.0.0"
+}

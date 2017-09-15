@@ -1,0 +1,72 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s1937cd6f07847c1924fece77e7386e7",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "canUpdateUI": true,
+    "children": [
+        "flxFilterHeader",
+        "lblSortby",
+        "lblRating",
+        "lblPrice",
+        "flxSortOptions",
+        "imgRating1",
+        "imgRating2",
+        "imgRating3",
+        "imgRating4",
+        "imgRating5",
+        "lblAndUp",
+        "lblAndBelow",
+        "lblPriceL1",
+        "lblPriceL2",
+        "lblPriceL3",
+        "lblPriceL4",
+        "flxOpenNow",
+        "lblResetAll"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "filterscreen",
+    "info": null,
+    "isvisible": true,
+    "kuid": "d4d09bd94f414f6e8a281f7289c2ed88",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "userwidgetmodel",
+    "pf": "userwidgetmodel",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1
+}

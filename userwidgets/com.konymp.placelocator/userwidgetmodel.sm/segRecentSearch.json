@@ -1,0 +1,155 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {},
+        {},
+        {}
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "45%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "55%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "android": {
+        "psp": {
+            "dockSectionHeaders": true
+        }
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "10",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": true,
+    "id": "segRecentSearch",
+    "ide_onRowClick": "AS_Segment_ebd61fae8dd649ecac382e2286a41efb",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "isvisible": true,
+    "kuid": "c538e232d6a44078ba3fdf9e2284aa54",
+    "masterdata": {},
+    "mobile": {
+        "_data_": [
+            [
+                {
+                    "lblRecentSearchHeader": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Recent Search"
+                    }
+                },
+                [
+                    {
+                        "lblName": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        }
+                    }
+                ]
+            ],
+            [
+                {
+                    "lblRecentSearchHeader": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Recent Search"
+                    }
+                },
+                [
+                    {
+                        "lblName": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        }
+                    }
+                ]
+            ]
+        ],
+        "rowTemplateId": "b2520efe30754ebfa54fb24dcdbebd13",
+        "rowtemplate": "flxAutoSuggest",
+        "sectionHeaderTemplateId": "a0face7824354fccbad437d5f2f90cf9",
+        "sectionheadertemplate": "flxHeader",
+        "widgetdatamap": {
+            "flxAutoSuggest": "flxAutoSuggest",
+            "flxHeader": "flxHeader",
+            "lblLine": "lblLine",
+            "lblName": "lblName",
+            "lblRecentSearchHeader": "lblRecentSearchHeader"
+        }
+    },
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxScreen1",
+    "pf": "userwidgetmodel",
+    "retainselection": false,
+    "rowcounter": 0,
+    "rowfocusskin": "sa1074641bcb443b8a06938e0ad1668c",
+    "rowskin": "sa8cf83de3d044c4bfd54c148911abec",
+    "rowtemplate": null,
+    "screenlevelwidget": false,
+    "seccounter": 1,
+    "sectionheaderskin": "s91841f179874d67850a5f19d914a8c5",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "64646400",
+    "separatorrequired": false,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxAutoSuggest": "flxAutoSuggest",
+        "flxHeader": "flxHeader",
+        "lblLine": "lblLine",
+        "lblName": "lblName",
+        "lblRecentSearchHeader": "lblRecentSearchHeader"
+    },
+    "zindex": 3
+}

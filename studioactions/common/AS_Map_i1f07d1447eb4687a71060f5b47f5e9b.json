@@ -1,0 +1,26 @@
+{
+    "AS_Map_i1f07d1447eb4687a71060f5b47f5e9b": {
+        "id": "AS_Map_i1f07d1447eb4687a71060f5b47f5e9b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "location"
+        }],
+        "contextObj": {
+            "name": "uwu10ed851c8be432abcc486da652268dd",
+            "type": "userwidgets",
+            "KUID": "u10ed851c8be432abcc486da652268dd"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__c4a9ad5a357f4fb5952b3f75db8785ec",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.pinClicked(location);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}
