@@ -36,7 +36,7 @@
         "value": "50%"
     },
     "children": [
-        "btnLogin"
+        "btnSignup"
     ],
     "clipbounds": true,
     "containerweight": 100,

@@ -23,7 +23,7 @@
         0
     ],
     "_skin_": "s2a5c327f4194e8896e8a2f21254133a",
-    "_text_": "LOGIN",
+    "_text_": "SIGN UP",
     "_top_": {
         "type": "string",
         "value": "10%"
@@ -37,7 +37,8 @@
     "contentalignment": 5,
     "displaytext": true,
     "focusskin": "s7654f2316f648da82c13553d696f874",
-    "id": "btnLogin",
+    "id": "btnSignup",
+    "ide_onClick": "AS_Button_d29e7d0bd47544d0abde8d5aa1883f15",
     "info": null,
     "isvisible": true,
     "kuid": "f8058aefbe85495ab772d394eddc3230",
