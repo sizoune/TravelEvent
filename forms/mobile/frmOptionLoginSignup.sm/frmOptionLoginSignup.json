@@ -15,7 +15,7 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s8fab1be8e7447b6b609c3f9f3c0bf41",
+    "_skin_": "s79ac88f535c4058a7eb1e8ffd1c41ea",
     "_title_": null,
     "addWidgetsdone": false,
     "allboxes": [],
@@ -28,23 +28,24 @@
     "canUpdateUI": true,
     "children": [
         "flxLogo",
-        "flxContentLogin"
+        "flxContent"
     ],
     "containerweight": 100,
     "controllerInfo": {
         "default": {
             "channel": "mobile",
-            "name": "frmLoginController"
+            "name": "frmOptionLoginSignupController"
         }
     },
     "currentLocale": "default",
     "desktopweb": {
         "needAppMenu": false
     },
-    "device": "GalaxyS5",
+    "device": "iPhone6",
     "displayorientation": 1,
     "enabledforidletimeout": false,
-    "id": "frmLogin",
+    "id": "frmOptionLoginSignup",
+    "ide_postShow": "AS_Form_a3eb455aab42470caeb25670efea35ee",
     "info": null,
     "initdone": false,
     "inputaccessoryviewtype": 4,
@@ -76,16 +77,16 @@
         "titleBar": false
     },
     "isvisible": true,
-    "kuid": "a71509ef519045d788bd9159bf010714",
+    "kuid": "i634fb3834d4465da80f2022b8c66296",
     "layouttype": 2,
     "name": "kony.ui.Form2",
     "needappmenu": true,
     "paddinginpixel": false,
-    "platform": "android",
+    "platform": "iphone",
     "prevDevice": "iPhone6",
-    "prevPlatform": "spaip",
+    "prevPlatform": "iphone",
     "retainscrollposition": false,
-    "shellCSS": "and_GalaxyS5",
+    "shellCSS": "iOS_iPhone6",
     "snapgridsize": 10,
     "snaptogrid": true,
     "spaan": {

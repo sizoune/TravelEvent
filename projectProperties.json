@@ -15,7 +15,7 @@
     "currentgaversion": "7.3.0",
     "appversionkey": "1.0.0",
     "project.type": "js",
-    "startupformkey": "frmDetailPlace",
+    "startupformkey": "frmOptionLoginSignup",
     "vendornamekey": "KonyLabs",
     "createdgaversion": "7.3.0",
     "konyVizVersion": "7.3.0",
@@ -27,6 +27,19 @@
     "build": "debug",
     "mastersProperties": {
         "mastersVersion": "2.0.0"
+    },
+
+    "project_version": "sprint27",
+    "mwportkey": "",
+    "category": "app",
+    "createdVizVersion": "7.3.0",
+    "mwhttpsportkey": "",
+    "defaulttheme": "defaultTheme",
+    "nativeContainerProperties": {
+        "isModified": false,
+        "isEnableJSContainer": false,
+        "isEnableJSContainerAndroid": false,
+        "isEnableJSContaineriOS": false
     },
     "appmenu": {
         "tablet": {
