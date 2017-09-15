@@ -1,0 +1,14 @@
+{
+  "background_color": "e8582cff",
+  "bg_type": "one",
+  "border_color": "000000ff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "iphone": {
+    "isForked": true
+  },
+  "isDefaultSkin": false,
+  "kuid": "sde769f970514a41b96be6cf2080b312",
+  "wType": "FlexContainer"
+}
