@@ -15,17 +15,21 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s237ac0d8bc24bf2a74ca7cb4343c6a8",
+    "_skin_": "s8fab1be8e7447b6b609c3f9f3c0bf41",
     "_title_": null,
     "addWidgetsdone": false,
     "allboxes": [],
     "android": {
+        "needAppMenu": false,
         "psp": {
             "windowSoftInputMode": 2
         }
     },
     "canUpdateUI": true,
-    "children": [],
+    "children": [
+        "flxLogo",
+        "flxContentLogin"
+    ],
     "containerweight": 100,
     "controllerInfo": {
         "default": {
@@ -37,9 +41,10 @@
     "desktopweb": {
         "needAppMenu": false
     },
-    "device": "iPhone6",
+    "device": "GalaxyS5",
     "displayorientation": 1,
     "enabledforidletimeout": false,
+    "friendlyName": " ",
     "id": "frmLogin",
     "info": null,
     "initdone": false,
@@ -50,6 +55,7 @@
         }
     },
     "iphone": {
+        "needAppMenu": false,
         "psp": {
             "inputAccessoryViewType": 4,
             "titleBarConfig": {
@@ -65,10 +71,10 @@
                 "titleBarRightSideView": "button",
                 "titleClosureLeftSideView": "",
                 "titleClosureRightSideView": "",
-                "visible": true
+                "visible": false
             }
         },
-        "titleBar": true
+        "titleBar": false
     },
     "isvisible": true,
     "kuid": "a71509ef519045d788bd9159bf010714",
@@ -76,15 +82,30 @@
     "name": "kony.ui.Form2",
     "needappmenu": true,
     "paddinginpixel": false,
-    "platform": "iphone",
+    "platform": "android",
     "prevDevice": "iPhone6",
-    "prevPlatform": "iphone",
+    "prevPlatform": "spaip",
     "retainscrollposition": false,
-    "shellCSS": "iOS_iPhone6",
+    "shellCSS": "and_GalaxyS5",
     "snapgridsize": 10,
     "snaptogrid": true,
+    "spaan": {
+        "needAppMenu": false
+    },
+    "spabb": {
+        "needAppMenu": false
+    },
+    "spaip": {
+        "needAppMenu": false
+    },
+    "spawinphone8": {
+        "needAppMenu": false
+    },
     "titleBarSkin": "s0c01e6f28e04c508280df4038d91ec5",
     "titlebar": true,
     "type": 3,
-    "wType": "Form"
+    "wType": "Form",
+    "winphone8": {
+        "needAppMenu": false
+    }
 }

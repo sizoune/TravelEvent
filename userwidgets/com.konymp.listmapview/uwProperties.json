@@ -1,0 +1,329 @@
+{
+    "classname": "listmapview",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "paramList": [
+                        {
+                            "name": "formattedResponse"
+                        }
+                    ],
+                    "propertyKey": "mapDataToSegmentAndMap",
+                    "pw": {
+                        "displayName": "mapDataToSegmentAndMap",
+                        "uiRepresentation": "Label-Label-Right"
+                    },
+                    "type": "api"
+                },
+                {
+                    "paramList": [
+                        {
+                            "name": "viewName"
+                        }
+                    ],
+                    "propertyKey": "shiftToView",
+                    "pw": {
+                        "displayName": "shiftToView",
+                        "uiRepresentation": "Label-Label-Right"
+                    },
+                    "type": "api"
+                },
+                {
+                    "paramList": [
+                        {
+                            "name": "origin"
+                        },
+                        {
+                            "name": "destination"
+                        }
+                    ],
+                    "propertyKey": "getDirections",
+                    "pw": {
+                        "displayName": "getDirections",
+                        "uiRepresentation": "Label-Label-Right"
+                    },
+                    "type": "api"
+                },
+                {
+                    "paramList": [
+                        {
+                            "name": "data"
+                        },
+                        {
+                            "name": "position"
+                        }
+                    ],
+                    "propertyKey": "setDataToSegmentAtAPosition",
+                    "pw": {
+                        "displayName": "setDataToSegmentAtAPosition",
+                        "uiRepresentation": "Label-Label-Right"
+                    },
+                    "type": "api"
+                },
+                {
+                    "paramList": [
+                        {
+                            "name": "locationData"
+                        }
+                    ],
+                    "propertyKey": "navigateToLocation",
+                    "pw": {
+                        "displayName": "navigateToLocation",
+                        "uiRepresentation": "Label-Label-Right"
+                    },
+                    "type": "api"
+                },
+                {
+                    "paramList": [
+                        {
+                            "name": "bottomValue"
+                        },
+                        {
+                            "name": "time"
+                        }
+                    ],
+                    "propertyKey": "hideOrUnhideMapSegmentCallout",
+                    "pw": {
+                        "displayName": "hideOrUnhideMapSegmentCallout",
+                        "uiRepresentation": "Label-Label-Right"
+                    },
+                    "type": "api"
+                }
+            ]
+        },
+        "events": {
+            "custom": [
+                {
+                    "paramList": [
+                        {
+                            "name": "location"
+                        }
+                    ],
+                    "propertyKey": "customPinClick",
+                    "pw": {
+                        "displayName": "customPinClick",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "edebe60cb14141e893aa7a61c1429f58",
+                    "type": "event"
+                },
+                {
+                    "paramList": [
+                        {
+                            "name": "context"
+                        }
+                    ],
+                    "propertyKey": "getDirectionsInvokedCallback",
+                    "pw": {
+                        "displayName": "getDirectionsInvokedCallback",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "edebe60cb14141e893aa7a61c1429f58",
+                    "type": "event"
+                },
+                {
+                    "paramList": [],
+                    "propertyKey": "successDrawMapRoute",
+                    "pw": {
+                        "displayName": "successDrawMapRoute",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "edebe60cb14141e893aa7a61c1429f58",
+                    "type": "event"
+                },
+                {
+                    "paramList": [],
+                    "propertyKey": "refreshData",
+                    "pw": {
+                        "displayName": "refreshData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "edebe60cb14141e893aa7a61c1429f58",
+                    "type": "event"
+                },
+                {
+                    "paramList": [
+                        {
+                            "name": "placeID"
+                        }
+                    ],
+                    "propertyKey": "callToInvoked",
+                    "pw": {
+                        "displayName": "callToInvoked",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "edebe60cb14141e893aa7a61c1429f58",
+                    "type": "event"
+                },
+                {
+                    "paramList": [],
+                    "propertyKey": "callSearchHere",
+                    "pw": {
+                        "displayName": "callSearchHere",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "edebe60cb14141e893aa7a61c1429f58",
+                    "type": "event"
+                },
+                {
+                    "paramList": [
+                        {
+                            "name": "formattedResponse"
+                        }
+                    ],
+                    "propertyKey": "postDataMapping",
+                    "pw": {
+                        "displayName": "postDataMapping",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "edebe60cb14141e893aa7a61c1429f58",
+                    "type": "event"
+                },
+                {
+                    "paramList": [],
+                    "propertyKey": "cancelMapsSuccess",
+                    "pw": {
+                        "displayName": "cancelMapsSuccess",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "edebe60cb14141e893aa7a61c1429f58",
+                    "type": "event"
+                },
+                {
+                    "paramList": [],
+                    "propertyKey": "openMapsSuccess",
+                    "pw": {
+                        "displayName": "openMapsSuccess",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "edebe60cb14141e893aa7a61c1429f58",
+                    "type": "event"
+                },
+                {
+                    "paramList": [
+                        {
+                            "name": "placeDetails"
+                        }
+                    ],
+                    "propertyKey": "getPlaceDetails",
+                    "pw": {
+                        "displayName": "getPlaceDetails",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "edebe60cb14141e893aa7a61c1429f58",
+                    "type": "event"
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "originalPropertyKey": "onClick",
+                    "propertyKey": "getCurrentLocation",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "getCurrentLocation",
+                        "srcWidget": "flxNavigateToCurrentLoction",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "be4b9dce934e4ef5a3ce0fa6856843a7"
+                },
+                {
+                    "access": "Enable",
+                    "originalPropertyKey": "onClick",
+                    "propertyKey": "onMapClick",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onMapClick",
+                        "srcWidget": "mapLayout",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Map"
+                    },
+                    "srcWgtKUID": "ifdb49bf09e34dfc8c249448bf2aa9ba"
+                }
+            ]
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Read",
+                    "defaultValue": "null",
+                    "originalPropertyKey": "locationData",
+                    "propertyKey": "locationData",
+                    "pw": {
+                        "displayName": "Location Data",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "edebe60cb14141e893aa7a61c1429f58",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Read",
+                    "defaultValue": "null",
+                    "originalPropertyKey": "selectedPinLocation",
+                    "propertyKey": "selectedPinLocation",
+                    "pw": {
+                        "displayName": "Selected Pin Location",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "edebe60cb14141e893aa7a61c1429f58",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "null",
+                    "originalPropertyKey": "mapData",
+                    "propertyKey": "mapData",
+                    "pw": {
+                        "displayName": "Map Data",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "edebe60cb14141e893aa7a61c1429f58",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "originalPropertyKey": "isVisible",
+                    "propertyKey": "mapRouteVisibility",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Map Route Visibility",
+                        "srcWidget": "flxMapRoute",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "jea2b4a73b6d462ca47356b3879063bd"
+                },
+                {
+                    "access": "Enable",
+                    "originalPropertyKey": "isVisible",
+                    "propertyKey": "mapNearByVisibility",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Map NearBy Visibility",
+                        "srcWidget": "flxMapView",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "ac9168213e074b4d9e37b2771b6b709a"
+                }
+            ]
+        }
+    },
+    "namespace": "com.konymp",
+    "version": "1.0.0"
+}

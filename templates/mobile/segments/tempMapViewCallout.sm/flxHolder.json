@@ -1,0 +1,52 @@
+{
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s9c3c4f7bae84d62bc23c030fb0536b4",
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "flxHolder1"
+    ],
+    "clipbounds": true,
+    "containerId": true,
+    "containerweight": 100,
+    "controllerInfo": {
+        "default": {
+            "channel": "mobile",
+            "name": "flxHolderController"
+        }
+    },
+    "enablescrolling": true,
+    "focusskin": "s9c3c4f7bae84d62bc23c030fb0536b4",
+    "id": "flxHolder",
+    "info": null,
+    "isTemplate": true,
+    "isvisible": true,
+    "kuid": "f2d5fc6f30e64dc99caa2a77d511a302",
+    "layouttype": 3,
+    "name": "kony.ui.FlexContainer",
+    "parent": "tempMapViewCallout",
+    "pf": "tempMapViewCallout",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1
+}

@@ -1,0 +1,55 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "45%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_render_": true,
+    "_skin_": "s9f77cafe36343e0be648c7e4080a0a3",
+    "_top_": {
+        "type": "string",
+        "value": "10%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "data": {
+        "titleText": "WHAT ARE YOU LOOKING FOR?"
+    },
+    "id": "menuComponent",
+    "info": null,
+    "isvisible": true,
+    "kuid": "i72533ec33ab4512bcc93b169a09e155",
+    "layouttype": 2,
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxScreen1",
+    "pf": "userwidgetmodel",
+    "snaptogrid": true,
+    "sourceUserWidget": "m6a60d74349546fcb37b20aa5149b982",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}

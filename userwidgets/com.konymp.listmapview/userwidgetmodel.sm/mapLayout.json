@@ -1,0 +1,68 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizMap",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_mode_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "android": {
+        "zoomLevel": 13
+    },
+    "calloutwidth": 80,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "defaultpinimage": "bars_pin.png",
+    "id": "mapLayout",
+    "ide_onPinClick": "AS_Map_i1f07d1447eb4687a71060f5b47f5e9b",
+    "info": null,
+    "iphone": {
+        "psp": {
+            "showCurrentLocation": "none"
+        },
+        "zoomLevel": 10
+    },
+    "isvisible": true,
+    "kuid": "ifdb49bf09e34dfc8c249448bf2aa9ba",
+    "locationdata": [],
+    "mapsource": "non-native",
+    "mapsrc": "non-native",
+    "mobile": {
+        "calloutTemplateId": "ad2df893d8234d6ab35be297cd41cbd8",
+        "callouttemplate": "flxInvisible"
+    },
+    "name": "kony.ui.Map",
+    "parent": "flxMapView",
+    "pf": "userwidgetmodel",
+    "provider": "google",
+    "screenlevelwidget": false,
+    "showCurrentLocation": "none",
+    "wType": "Map",
+    "zindex": 1,
+    "zoomlevel": 12
+}
