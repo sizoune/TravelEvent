@@ -1,0 +1,77 @@
+{
+    "AS_FlexContainer_c756e56e950147828e3a4ffbfcb92823": {
+        "id": "AS_FlexContainer_c756e56e950147828e3a4ffbfcb92823",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmTourist",
+            "type": "forms",
+            "platform": null,
+            "KUID": "b88cf7bacfd246c4a7b0b15fb902e069"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "MOVE_ACTION____f3f973cfed734bfd886373163b45d094",
+            "type": "MOVE_ACTION",
+            "itemType": "FORM",
+            "itemId": "frmTourist",
+            "widgetId": "flxContentTourist",
+            "itemKUID": "b88cf7bacfd246c4a7b0b15fb902e069",
+            "widgetKUID": "hacdedc781a6444ab30aee13c853c66f",
+            "wType": "FlexContainer",
+            "animationObject": {
+                "left": "-100%",
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                }
+            },
+            "config": {
+                "delay": "150",
+                "iterationCount": 1,
+                "fillMode": "kony.anim.FILL_MODE_FORWARDS",
+                "duration": "250"
+            },
+            "start": "Immediately",
+            "animationId": "MOVE_ACTION____f3f973cfed734bfd886373163b45d094",
+            "displayAnimationId": "MOVE_ACTION____f3f973cfed734bfd886373163b45d094",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null,
+            "widgetPath": "this.view.flxContentTourist"
+        }, {
+            "id": "MOVE_ACTION____e0f88e2edaf04d9e8e11bdbd3f717bb4",
+            "type": "MOVE_ACTION",
+            "itemType": "FORM",
+            "itemId": "frmTourist",
+            "widgetId": "flxContentEvents",
+            "itemKUID": "b88cf7bacfd246c4a7b0b15fb902e069",
+            "widgetKUID": "gda87b63a4664006a09e83a13ba1c77e",
+            "wType": "FlexContainer",
+            "animationObject": {
+                "left": "0%",
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                }
+            },
+            "config": {
+                "delay": "150",
+                "iterationCount": 1,
+                "fillMode": "kony.anim.FILL_MODE_FORWARDS",
+                "duration": "250"
+            },
+            "start": "Immediately",
+            "parentAnimation": "MOVE_ACTION____f3f973cfed734bfd886373163b45d094",
+            "animationId": "MOVE_ACTION____e0f88e2edaf04d9e8e11bdbd3f717bb4",
+            "displayAnimationId": "MOVE_ACTION____e0f88e2edaf04d9e8e11bdbd3f717bb4",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null,
+            "widgetPath": "this.view.flxContentEvents"
+        }]
+    }
+}

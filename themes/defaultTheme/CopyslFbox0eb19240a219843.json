@@ -5,7 +5,7 @@
   "border_style": "plain",
   "border_type": 0,
   "border_width": 0,
-  "isDefaultSkin": true,
-  "kuid": "s6f3539c342947659190892d43ad46f2",
-  "wType": "Segment"
+  "isDefaultSkin": false,
+  "kuid": "s4f2d6e1a41e443aab1322687945ee52",
+  "wType": "FlexContainer"
 }
