@@ -39,6 +39,8 @@ define({
         }, {
             "animationEnd": MOVE_ACTION____d321e9c45fb0412aa2e3c976be9f2e65_Callback
         });
+        self.view.flxTourist2["isVisible"] = true;
+        self.view.flxEvent2["isVisible"] = false;
     },
     AS_FlexContainer_c756e56e950147828e3a4ffbfcb92823: function AS_FlexContainer_c756e56e950147828e3a4ffbfcb92823(eventobject) {
         var self = this;
@@ -77,6 +79,8 @@ define({
         }, {
             "animationEnd": MOVE_ACTION____e0f88e2edaf04d9e8e11bdbd3f717bb4_Callback
         });
+        self.view.flxTourist2["isVisible"] = false;
+        self.view.flxEvent2["isVisible"] = true;
     },
     AS_Form_b2d7b001526747c0ac914095fd56d190: function AS_Form_b2d7b001526747c0ac914095fd56d190(eventobject) {
         var self = this;
