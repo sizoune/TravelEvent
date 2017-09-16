@@ -72,6 +72,38 @@
             "parentId": null,
             "callbackType": null,
             "widgetPath": "this.view.flxContentEvents"
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled___a8ab8d8f5c71455e815aa5e58ac2cae8",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "frmTourist",
+            "widgetId": "flxTourist2",
+            "propertyName": "isVisible",
+            "propertyValue": "false",
+            "itemKUID": "b88cf7bacfd246c4a7b0b15fb902e069",
+            "widgetKUID": "a80fe294859846ecaea961cf88376076",
+            "isSkinProperty": false,
+            "wType": "FlexContainer",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null,
+            "widgetPath": "this.view.flxTourist2"
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled___ce1ed9d50d7147ffa1ac7fb7224b976d",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "frmTourist",
+            "widgetId": "flxEvent2",
+            "propertyName": "isVisible",
+            "propertyValue": "true",
+            "itemKUID": "b88cf7bacfd246c4a7b0b15fb902e069",
+            "widgetKUID": "baf4c48a949e45cfb2ff7b7656026036",
+            "isSkinProperty": false,
+            "wType": "FlexContainer",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null,
+            "widgetPath": "this.view.flxEvent2"
         }]
     }
 }
