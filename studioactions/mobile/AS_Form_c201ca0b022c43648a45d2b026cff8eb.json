@@ -13,6 +13,14 @@
             "KUID": "b88cf7bacfd246c4a7b0b15fb902e069"
         },
         "language": "js",
-        "actions": []
+        "actions": [{
+            "id": "INVOKE_FUNCTION___f128bf967c2645768ecf34291844671c",
+            "type": "INVOKE_FUNCTION",
+            "display": "<>",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null
+        }]
     }
 }

@@ -1,6 +1,6 @@
 {
-    "AS_Form_d3cfbb283c384ed6be950b9e63b13f7c": {
-        "id": "AS_Form_d3cfbb283c384ed6be950b9e63b13f7c",
+    "AS_Form_c83f109c48c141b697b7fc4cd23c8a86": {
+        "id": "AS_Form_c83f109c48c141b697b7fc4cd23c8a86",
         "type": "ACTION_SEQUENCE",
         "params": [{
             "datatype": "collection",
@@ -14,9 +14,10 @@
         },
         "language": "js",
         "actions": [{
-            "id": "INVOKE_FUNCTION___a7c9f747417b48acbcabf213a6194df8",
+            "id": "INVOKE_FUNCTION___aed0e3687391457e86d2ec93024280c0",
             "type": "INVOKE_FUNCTION",
-            "display": "<>",
+            "sequenceKUID": "getCurrentLocation",
+            "display": "getCurrentLocation",
             "inputparams": [],
             "parentId": null,
             "callbackType": null,

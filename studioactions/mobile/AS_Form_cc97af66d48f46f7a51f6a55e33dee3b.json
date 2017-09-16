@@ -14,10 +14,9 @@
         },
         "language": "js",
         "actions": [{
-            "id": "INVOKE_FUNCTION___h5638bacd4554cef9a256d2c4ce47355",
+            "id": "INVOKE_FUNCTION___b75049282bce40a08c63326df7c8b503",
             "type": "INVOKE_FUNCTION",
-            "sequenceKUID": "tampilkanLabel",
-            "display": "tampilkanLabel",
+            "display": "<>",
             "inputparams": [],
             "parentId": null,
             "callbackType": null,

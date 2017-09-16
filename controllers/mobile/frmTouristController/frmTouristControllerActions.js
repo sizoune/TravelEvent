@@ -157,8 +157,5 @@ define({
         });
         self.view.flxBackTourist["isVisible"] = false;
         self.view.flxBackEvents["isVisible"] = true;
-    },
-    AS_Form_cf97ae155b8048f88f36d0dc18a72d57: function AS_Form_cf97ae155b8048f88f36d0dc18a72d57(eventobject) {
-        var self = this;
     }
 });
