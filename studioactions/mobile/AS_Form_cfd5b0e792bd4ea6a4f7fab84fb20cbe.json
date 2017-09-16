@@ -1,0 +1,24 @@
+{
+    "AS_Form_cfd5b0e792bd4ea6a4f7fab84fb20cbe": {
+        "id": "AS_Form_cfd5b0e792bd4ea6a4f7fab84fb20cbe",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmTourist",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b88cf7bacfd246c4a7b0b15fb902e069"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__d1b3420d7a384fa081ad21f6c4d50cc0",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "lokasiSekarang();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -20,7 +20,7 @@
         0
     ],
     "_skin_": "s613abce54f04e5f8cdf0db2baa542ec",
-    "_text_": "Lokasi sekarang nih bro",
+    "_text_": "Lokasi Sekarang nih bro",
     "_width_": {
         "type": "ref",
         "value": "preferred"
@@ -42,7 +42,7 @@
         "value": "50%"
     },
     "containerweight": 100,
-    "contentalignment": 4,
+    "contentalignment": 5,
     "id": "lblLokasiSekarang",
     "info": null,
     "ipad": {
@@ -57,8 +57,9 @@
     },
     "isvisible": true,
     "kuid": "cf2f4bfbfe1049c2ba519e18ed2d2375",
+    "maxnumberoflines": 3,
     "name": "kony.ui.Label",
-    "parent": "flxLocation",
+    "parent": "flxLokasiSekarang",
     "pf": "frmTourist",
     "tooltip": "",
     "wType": "Label",
