@@ -39,7 +39,7 @@
     "focusskin": "s66c360ba8bb4be7b578a97e6efb2e91",
     "id": "btnForgotPassoword",
     "info": null,
-    "isvisible": true,
+    "isvisible": false,
     "kuid": "ie42c5e5c9ce408981a1d23e4223366b",
     "name": "kony.ui.Button",
     "parent": "flxButton",

@@ -77,5 +77,9 @@ define({
         }, {
             "animationEnd": MOVE_ACTION____e0f88e2edaf04d9e8e11bdbd3f717bb4_Callback
         });
+    },
+    AS_Form_c83f109c48c141b697b7fc4cd23c8a86: function AS_Form_c83f109c48c141b697b7fc4cd23c8a86(eventobject) {
+        var self = this;
+        return getCurrentLocation.call(this);
     }
 });

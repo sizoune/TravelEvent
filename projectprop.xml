@@ -566,5 +566,6 @@
     <attributes name="build" value="debug"/>
     <attributes name="certs_key_store_type" value="JKS"/>
     <attributes name="spaandroidtab800basefontsize" value="12"/>
+    <attributes name="cloud_env_GUID" value=""/>
     <attributes name="defaultlocalekey" value=""/>
 </properties>
