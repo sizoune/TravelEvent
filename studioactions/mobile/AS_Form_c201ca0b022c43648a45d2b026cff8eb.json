@@ -1,0 +1,18 @@
+{
+    "AS_Form_c201ca0b022c43648a45d2b026cff8eb": {
+        "id": "AS_Form_c201ca0b022c43648a45d2b026cff8eb",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmTourist",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b88cf7bacfd246c4a7b0b15fb902e069"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

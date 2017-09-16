@@ -33,7 +33,7 @@
     },
     "centery": {
         "type": "string",
-        "value": "45%"
+        "value": "50%"
     },
     "children": [
         "lblUser",

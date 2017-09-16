@@ -1,0 +1,27 @@
+{
+    "AS_Form_cc97af66d48f46f7a51f6a55e33dee3b": {
+        "id": "AS_Form_cc97af66d48f46f7a51f6a55e33dee3b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmTourist",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b88cf7bacfd246c4a7b0b15fb902e069"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___h5638bacd4554cef9a256d2c4ce47355",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "tampilkanLabel",
+            "display": "tampilkanLabel",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null
+        }]
+    }
+}
