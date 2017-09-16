@@ -44,6 +44,7 @@ function signup(){
 }
 
 function login(){
+  alert(this.view.lblEmailLogin.text);
   var email = this.view.txtEmailLogin.text;
   var password = this.view.txtPasswordLogin.text;https:
   var url = "https://www.googleapis.com/identitytoolkit/v3/relyingparty/verifyPassword?key=AIzaSyCCMR1pmvXBNKWaMCdqowcOO2lXNC9PWrA";

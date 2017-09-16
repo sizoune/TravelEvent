@@ -1,8 +1,9 @@
 //Type your code here
 var GOOGLE_API_KEY = "AIzaSyA9ZiU5azNIAPKnHDPWtz3LPXDn0ACWi9E";
-
+var locNow;
 function getCurrentLocation(){
   kony.location.getCurrentPosition(successcallback, errorcallback);
+   locNow = this.view.lblLokasiSekarang;
 }
 
 function successcallback(location){
@@ -37,9 +38,9 @@ function HandleResponseLoc(obj){
       }else{
         var loc = jsonObj['results'][0];
         var address = loc['formatted_address'];
-        alert(address);
-        alert(this.view.lblTourist.text);
-//         this.view.lblLokasiSekarang.text = loc;
+        locNow.text = address;
+        //         alert(this.view.lblTourist.text);
+        //         this.view.lblLokasiSekarang.text = loc;
         //         frmTourist.lblLokasiSekarang.text = loc;
       }
       return;
@@ -49,4 +50,9 @@ function HandleResponseLoc(obj){
 
     }
   }
+  
 }
+
+function coba(){
+    alert(this.view.lblLokasiSekarang.text);
+  }
