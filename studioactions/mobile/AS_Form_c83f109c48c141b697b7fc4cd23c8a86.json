@@ -1,0 +1,27 @@
+{
+    "AS_Form_c83f109c48c141b697b7fc4cd23c8a86": {
+        "id": "AS_Form_c83f109c48c141b697b7fc4cd23c8a86",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmTourist",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b88cf7bacfd246c4a7b0b15fb902e069"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___aed0e3687391457e86d2ec93024280c0",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "getCurrentLocation",
+            "display": "getCurrentLocation",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null
+        }]
+    }
+}
