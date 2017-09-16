@@ -13,12 +13,9 @@
     "font_size": 130,
     "isForked": false
   },
-  "fontSizeInPx": false,
   "font_color": "121112ff",
   "font_name": "Helvetica",
   "font_size": 130,
-  "font_style": "normal",
-  "font_weight": "normal",
   "ipad": {
     "font_size": 130,
     "isForked": false
@@ -32,7 +29,7 @@
     "font_size": 130,
     "isForked": false
   },
-  "kuid": "saed96b0c01e4d42861aa3ff303aad9c",
+  "kuid": "s505049103714ba68c8258d5b8651f70",
   "spaan": {
     "font_size": 130,
     "isForked": false

@@ -42,6 +42,7 @@
     "containerheightmode": 1,
     "containerweight": 100,
     "contentalignment": 4,
+    "focusskin": "s505049103714ba68c8258d5b8651f70",
     "id": "txtEmail",
     "info": null,
     "isvisible": true,

@@ -23,7 +23,7 @@
         0
     ],
     "_skin_": "s775b307cb354c92828c0c5e131deb49",
-    "_text_": "USERNAME",
+    "_text_": "EMAIL",
     "_top_": {
         "type": "string",
         "value": "1.00%"
@@ -42,7 +42,7 @@
     "canUpdateUI": true,
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "lblUsername",
+    "id": "lblEmailLogin",
     "info": null,
     "ipad": {
         "psp": {
