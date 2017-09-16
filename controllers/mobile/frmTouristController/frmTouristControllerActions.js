@@ -158,8 +158,6 @@ define({
         self.view.flxBackTourist["isVisible"] = false;
         self.view.flxBackEvents["isVisible"] = true;
     },
-    AS_Form_cfd5b0e792bd4ea6a4f7fab84fb20cbe: function AS_Form_cfd5b0e792bd4ea6a4f7fab84fb20cbe(eventobject) {
-        var self = this;
-        lokasiSekarang();
+
     }
 });
