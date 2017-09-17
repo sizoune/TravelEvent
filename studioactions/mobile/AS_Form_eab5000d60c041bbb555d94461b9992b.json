@@ -1,6 +1,6 @@
 {
-    "AS_Form_b2d7b001526747c0ac914095fd56d190": {
-        "id": "AS_Form_b2d7b001526747c0ac914095fd56d190",
+    "AS_Form_eab5000d60c041bbb555d94461b9992b": {
+        "id": "AS_Form_eab5000d60c041bbb555d94461b9992b",
         "type": "ACTION_SEQUENCE",
         "params": [{
             "datatype": "collection",
@@ -14,19 +14,10 @@
         },
         "language": "js",
         "actions": [{
-            "id": "INVOKE_FUNCTION___a3e8f05ff7fa4d65bbf2eb366044a810",
+            "id": "INVOKE_FUNCTION___fdfb118abdb84c7b9ed01a02f8b57d1b",
             "type": "INVOKE_FUNCTION",
             "sequenceKUID": "getCurrentLocation",
             "display": "getCurrentLocation",
-            "inputparams": [],
-            "parentId": null,
-            "callbackType": null,
-            "disabled": null
-        }, {
-            "id": "INVOKE_FUNCTION___i55e7031a8b44b07b11d685c4370c5c9",
-            "type": "INVOKE_FUNCTION",
-            "sequenceKUID": "getNearbyPlace",
-            "display": "getNearbyPlace",
             "inputparams": [],
             "parentId": null,
             "callbackType": null,
