@@ -35,8 +35,8 @@
     "allboxes": [],
     "canUpdateUI": true,
     "children": [
-        "flxTourist2",
-        "flxEvent2",
+        "flxBackEvents",
+        "flxBackTourist",
         "flxTourist",
         "flxEvents",
         "flxUser"

@@ -1,6 +1,6 @@
 {
-    "AS_FlexContainer_c756e56e950147828e3a4ffbfcb92823": {
-        "id": "AS_FlexContainer_c756e56e950147828e3a4ffbfcb92823",
+    "AS_FlexContainer_j68d26a911ff48faa4ca66e4e4590698": {
+        "id": "AS_FlexContainer_j68d26a911ff48faa4ca66e4e4590698",
         "type": "ACTION_SEQUENCE",
         "params": [{
             "datatype": "collection",
@@ -9,12 +9,12 @@
         "contextObj": {
             "name": "frmTourist",
             "type": "forms",
-            "platform": null,
+            "platform": "",
             "KUID": "b88cf7bacfd246c4a7b0b15fb902e069"
         },
         "language": "js",
         "actions": [{
-            "id": "MOVE_ACTION____f3f973cfed734bfd886373163b45d094",
+            "id": "___ide_onClick_i04903a6368e4adeb0cf5f054955accb",
             "type": "MOVE_ACTION",
             "itemType": "FORM",
             "itemId": "frmTourist",
@@ -39,11 +39,10 @@
             "animationId": "MOVE_ACTION____f3f973cfed734bfd886373163b45d094",
             "displayAnimationId": "MOVE_ACTION____f3f973cfed734bfd886373163b45d094",
             "forkedPlatform": "all",
-            "parentId": null,
             "callbackType": null,
             "widgetPath": "this.view.flxContentTourist"
         }, {
-            "id": "MOVE_ACTION____e0f88e2edaf04d9e8e11bdbd3f717bb4",
+            "id": "___ide_onClick_j25d3b4a3284408b86cb5f335ebc83cb",
             "type": "MOVE_ACTION",
             "itemType": "FORM",
             "itemId": "frmTourist",
@@ -69,41 +68,8 @@
             "animationId": "MOVE_ACTION____e0f88e2edaf04d9e8e11bdbd3f717bb4",
             "displayAnimationId": "MOVE_ACTION____e0f88e2edaf04d9e8e11bdbd3f717bb4",
             "forkedPlatform": "all",
-            "parentId": null,
             "callbackType": null,
             "widgetPath": "this.view.flxContentEvents"
-        }, {
-            "id": "SET_FORM_WIDGET_PROPERTY_Untitled___be15f01df8d84f5ba02855a67bf9aedb",
-            "type": "SET_WIDGET_PROPERTY",
-            "itemType": "FORM",
-            "itemId": "frmTourist",
-            "widgetId": "flxBackTourist",
-            "propertyName": "isVisible",
-            "propertyValue": "false",
-            "itemKUID": "b88cf7bacfd246c4a7b0b15fb902e069",
-            "widgetKUID": "jb279260b7c247718e57f36c1386e41f",
-            "isSkinProperty": false,
-            "wType": "FlexContainer",
-            "forkedPlatform": "all",
-            "parentId": null,
-            "callbackType": null,
-            "widgetPath": "this.view.flxBackTourist"
-        }, {
-            "id": "SET_FORM_WIDGET_PROPERTY_Untitled___b886b817c1544fe1bfeab0d378938da8",
-            "type": "SET_WIDGET_PROPERTY",
-            "itemType": "FORM",
-            "itemId": "frmTourist",
-            "widgetId": "flxBackEvents",
-            "propertyName": "isVisible",
-            "propertyValue": "true",
-            "itemKUID": "b88cf7bacfd246c4a7b0b15fb902e069",
-            "widgetKUID": "e75a7dcea9014196977df01d840ed071",
-            "isSkinProperty": false,
-            "wType": "FlexContainer",
-            "forkedPlatform": "all",
-            "parentId": null,
-            "callbackType": null,
-            "widgetPath": "this.view.flxBackEvents"
         }]
     }
 }
