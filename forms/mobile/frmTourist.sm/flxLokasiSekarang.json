@@ -3,11 +3,11 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "70%"
+        "value": "85.04%"
     },
     "_left_": {
         "type": "string",
-        "value": "0dp"
+        "value": "94dp"
     },
     "_margin_": [
         0,
@@ -26,7 +26,7 @@
     "_skin_": "s6c3d46c6ac74a919809125682aaa5a1",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "3dp"
     },
     "_width_": {
         "type": "string",
@@ -52,7 +52,7 @@
     "id": "flxLokasiSekarang",
     "info": null,
     "isvisible": true,
-    "kuid": "b21b2cd33129410da913eb2f1e31c51a",
+    "kuid": "f598d0ff1fb84f0896bbbd00251a1f4d",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
     "parent": "flxLocation",

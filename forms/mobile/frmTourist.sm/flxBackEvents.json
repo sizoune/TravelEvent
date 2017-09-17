@@ -19,7 +19,7 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s6c3d46c6ac74a919809125682aaa5a1",
+    "_skin_": "s4aed0dfddba4b7e87205c2065c22ac0",
     "_width_": {
         "type": "string",
         "value": "28%"
@@ -35,19 +35,16 @@
         "type": "string",
         "value": "50%"
     },
-    "children": [
-        "lblEvents",
-        "imgEvents"
-    ],
+    "children": [],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
     "focusskin": "s8de308563254cfbb0d9db4c70b66e80",
-    "id": "flxEvents",
-    "ide_onClick": "AS_FlexContainer_c756e56e950147828e3a4ffbfcb92823",
+    "id": "flxBackEvents",
+    "ide_onClick": "AS_FlexContainer_j68d26a911ff48faa4ca66e4e4590698",
     "info": null,
-    "isvisible": true,
-    "kuid": "j086622ace834944842d57e9ba2e1969",
+    "isvisible": false,
+    "kuid": "e75a7dcea9014196977df01d840ed071",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
     "parent": "flxHeader",

@@ -1,23 +1,22 @@
 {
-    "AS_Button_c1bbd4de7389432c9ba3f557cb9278f3": {
-        "id": "AS_Button_c1bbd4de7389432c9ba3f557cb9278f3",
+    "AS_Form_c201ca0b022c43648a45d2b026cff8eb": {
+        "id": "AS_Form_c201ca0b022c43648a45d2b026cff8eb",
         "type": "ACTION_SEQUENCE",
         "params": [{
             "datatype": "collection",
             "name": "eventobject"
         }],
         "contextObj": {
-            "name": "frmLogin",
+            "name": "frmTourist",
             "type": "forms",
             "platform": "",
-            "KUID": "a71509ef519045d788bd9159bf010714"
+            "KUID": "b88cf7bacfd246c4a7b0b15fb902e069"
         },
         "language": "js",
         "actions": [{
-            "id": "INVOKE_FUNCTION___bbcff7c56a4e4f50a875538714f64989",
+            "id": "INVOKE_FUNCTION___f128bf967c2645768ecf34291844671c",
             "type": "INVOKE_FUNCTION",
-            "sequenceKUID": "getServerResponceOption",
-            "display": "getServerResponceOption",
+            "display": "<>",
             "inputparams": [],
             "parentId": null,
             "callbackType": null,
