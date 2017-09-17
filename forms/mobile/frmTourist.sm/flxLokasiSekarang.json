@@ -1,10 +1,9 @@
 {
     "DNDConfig": null,
-    "__markedForDelete__": true,
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "7%"
+        "value": "70%"
     },
     "_left_": {
         "type": "string",
@@ -24,32 +23,39 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s8576d54622f46ebba7bc4db0c0329fd",
+    "_skin_": "s6c3d46c6ac74a919809125682aaa5a1",
     "_top_": {
         "type": "string",
-        "value": "0%"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "60%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
     "children": [
-        "imgLocation",
-        "flxLokasiSekarang"
+        "lblLokasiSekarang"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxLocation",
+    "id": "flxLokasiSekarang",
     "info": null,
     "isvisible": true,
-    "kuid": "j3c3f2b5ac51480880dfef47a39ec952",
+    "kuid": "b21b2cd33129410da913eb2f1e31c51a",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "frmTourist",
+    "parent": "flxLocation",
     "pf": "frmTourist",
     "snapgridsize": 10,
     "snaptogrid": true,
