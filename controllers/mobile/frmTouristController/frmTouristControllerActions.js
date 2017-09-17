@@ -78,7 +78,7 @@ define({
             "animationEnd": MOVE_ACTION____e0f88e2edaf04d9e8e11bdbd3f717bb4_Callback
         });
     },
-    AS_Form_b2d7b001526747c0ac914095fd56d190: function AS_Form_b2d7b001526747c0ac914095fd56d190(eventobject) {
+    AS_Form_eab5000d60c041bbb555d94461b9992b: function AS_Form_eab5000d60c041bbb555d94461b9992b(eventobject) {
         var self = this;
         return getCurrentLocation.call(this);
     }
