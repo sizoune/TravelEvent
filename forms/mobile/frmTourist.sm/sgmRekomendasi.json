@@ -1,6 +1,7 @@
 {
     "@class": "com.kony.gen.viz.model.container.KVizSegment2",
     "DNDConfig": null,
+    "__markedForDelete__": true,
     "__parentReadjusting__": false,
     "_data_": [
         {
@@ -132,7 +133,7 @@
     "paginationconfig": {
         "position": "bottom"
     },
-    "parent": "flxContentTourist",
+    "parent": "flxScroll",
     "pf": "frmTourist",
     "retainselection": false,
     "rowTemplateId": "e2402127ebce43cc8b7ade7b525a2afa",
@@ -148,7 +149,7 @@
     "selectedindex": null,
     "selectedindices": null,
     "selecteditems": null,
-    "selectedsectionindex": null,
+    "selectedsectionindex": 0,
     "selectionbehavior": "default",
     "separatorcolor": "64646400",
     "separatorrequired": true,
