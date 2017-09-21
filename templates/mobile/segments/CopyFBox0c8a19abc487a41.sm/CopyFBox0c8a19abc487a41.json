@@ -28,7 +28,7 @@
     "children": [
         "imgEvents",
         "lblNama",
-        "lblPrice",
+        "lblDatenTime",
         "lbDistance",
         "lbPrice"
     ],

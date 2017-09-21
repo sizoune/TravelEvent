@@ -43,7 +43,7 @@
     "containerId": true,
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "lblPrice",
+    "id": "lblDatenTime",
     "info": null,
     "ipad": {
         "psp": {
@@ -55,6 +55,7 @@
             "wrapping": 2
         }
     },
+    "isSegmentChild": true,
     "isvisible": true,
     "kuid": "b8f0b32d16314df785a4b628e7c1a93e",
     "name": "kony.ui.Label",
