@@ -37,8 +37,7 @@
     "canUpdateUI": true,
     "children": [
         "flxRekomendasi",
-        "sgmRekomendasi",
-        "btnSeeAll"
+        "flxScroll"
     ],
     "clipbounds": true,
     "containerweight": 100,
