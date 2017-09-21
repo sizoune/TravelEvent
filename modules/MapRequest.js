@@ -6,6 +6,8 @@ var latitude;
 var longitude;
 var segTourist;
 var segEvent;
+var datc = [];
+var placeId = [];
 
 function getCurrentLocation(){
   kony.location.getCurrentPosition(successcallback, errorcallback);
@@ -126,23 +128,6 @@ function HandleResponsePoi(objPoi){
         //         alert(segTourist.data);
         segTourist.widgetDataMap = {imgRekomendasi:"imgRekomendasi",lblNama:"lblNama",lblRating:"lblRating",lblPrice:"lblPrice",lblDistance:"lblDistance"};
         var uriimage = "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400";
-
-        //         var image = "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=CnRtAAAATLZNl354RwP_9UKbQ_5Psy40texXePv4oAlgP4qNEkdIrkyse7rPXYGd9D_Uj1rVsQdWT4oRz4QrYAJNpFX7rzqqMlZw2h2E2y5IKMUZ7ouD_SlcHxYq1yL4KbKUv3qtWgTK0A6QbGh87GB3sscrHRIQiG2RrmU_jF4tENr9wGS_YxoUSSDrYjWmrNfeEHSGSc3FyhNLlBU&key=AIzaSyA9ZiU5azNIAPKnHDPWtz3LPXDn0ACWi9E";
-
-
-        var datc = [];
-        //         var gambar = poi[0]['photos'];
-        //           var refPhoto = gambar[0]['photo_reference'];
-        //         var name = poi[0]['name'];
-        //           var rating = poi[0]['rating'];
-        //           var price = 0;
-        //           var distance = 0;
-        //           var uri2 = uriimage.concat("&photoreference="+refPhoto);
-        //           var uri3 = uri2.concat("&key=");
-        //           var uri4 = uri3.concat(GOOGLE_API_KEY);
-        //           var datc = [{imgRekomendasi:uri4 ,lblNama:name,lblRating:rating,lblPrice:price,lblDistance:distance}];
-        //         segTourist.addAll({imgRekomendasi:"https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference="+refPhoto+"&key="+GOOGLE_API_KEY,lblNama:name,lblRating:rating,lblPrice:price,lblDistance:distance});
-        //         segTourist.setData(dataCoba);
         for(i=0; i<lengthObject; i++){
           var gambar = poi[i]['photos'];
           var refPhoto;
@@ -151,6 +136,7 @@ function HandleResponsePoi(objPoi){
           } catch(Exc) {
             refPhoto = "";
           }
+          placeId.push(poi[i]['place_id'])
           //           alert(refPhoto);
           var name = poi[i]['name'];
           var rating = poi[i]['rating'];
@@ -163,6 +149,7 @@ function HandleResponsePoi(objPoi){
           datc.push(dati)
         }
         segTourist.setData(datc);
+
         getEvent();
         //         var address = loc['formatted_address'];
         //         locNow.text = address;
@@ -229,5 +216,13 @@ function HandleResponseEvent(objPoi){
     }
   }
 
+}
+
+
+function klikRowutama() {
+  var segSelectedIndex = segTourist.selectedIndex[1];
+  kony.store.setItem("place_id", placeId[segSelectedIndex]);
+  var ntf = new kony.mvc.Navigation("frmDetailPlace");
+  ntf.navigate();
 }
 
