@@ -38,8 +38,7 @@
     "canUpdateUI": true,
     "children": [
         "flxRekomendasiAcara",
-        "segRekomendasiAcara",
-        "CopybtnSeeAll0bf1b4b21f1874b"
+        "segRekomendasiAcara"
     ],
     "clipbounds": true,
     "containerweight": 100,
