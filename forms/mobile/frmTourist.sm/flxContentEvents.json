@@ -38,7 +38,7 @@
     "canUpdateUI": true,
     "children": [
         "flxRekomendasiAcara",
-        "segRekomendasiAcara"
+        "flxScrollEvents"
     ],
     "clipbounds": true,
     "containerweight": 100,

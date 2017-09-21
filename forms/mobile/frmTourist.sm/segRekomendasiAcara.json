@@ -95,14 +95,18 @@
     ],
     "_top_": {
         "type": "string",
-        "value": "10dp"
+        "value": "8dp"
     },
     "_width_": {
         "type": "string",
-        "value": "86.09%"
+        "value": "95%"
     },
     "autogrowmode": 1,
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "containerweight": 100,
     "counter": "02",
     "enablereordering": false,
@@ -133,7 +137,7 @@
     "paginationconfig": {
         "position": "bottom"
     },
-    "parent": "flxContentEvents",
+    "parent": "flxScrollEvents",
     "pf": "frmTourist",
     "retainselection": false,
     "rowTemplateId": "h4e9e06349b44ea0bc2f29d05b57ffe5",
