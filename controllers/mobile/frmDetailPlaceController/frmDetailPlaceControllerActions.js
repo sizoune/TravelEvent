@@ -22,5 +22,9 @@ define({
         }, {
             "animationEnd": MOVE_ACTION____c8969f5fdee5425a93e78c53b0885c42_Callback
         });
+    },
+    AS_Form_c9c97f360b994ae289007e860e67c766: function AS_Form_c9c97f360b994ae289007e860e67c766(eventobject) {
+        var self = this;
+        tampilkanDetail();
     }
 });
