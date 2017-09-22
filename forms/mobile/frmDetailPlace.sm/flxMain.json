@@ -39,7 +39,6 @@
     "children": [
         "lblNama",
         "lblRating",
-        "lblHarga",
         "lblLokasi",
         "lblDesc"
     ],

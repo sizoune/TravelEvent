@@ -2,15 +2,15 @@
 var GOOGLE_API_KEY = "AIzaSyBhcP9YePJeT1FlMOcgH7WB9_b-teG7Uvc";
 var placeid;
 var URL ;
-var photos, lblNama, lblRating, lblHarga, lblLokasi;
+var photos, lblNama, lblRating, lblDesc, lblLokasi;
 var data = [];
 
 function tampilkanDetail() {
   //initComponents
   photos = this.view.imageSlider;
   lblNama = this.view.lblNama;
+//   lblDesc = this.view.lblDesc;
   lblRating = this.view.lblRating;
-  lblHarga = this.view.lblHarga;
   lblLokasi = this.view.lblLokasi;
 
   placeid = kony.store.getItem("place_id");
@@ -30,6 +30,7 @@ function getDetailPlace() {
 
 function HandleResponseDetailLoc(obj){
   data = [];
+  var rating;
   if(obj.readyState == 4 ){
     if (obj.response != null && obj.response != ""){
       var jsonObj = obj.response;
@@ -40,6 +41,14 @@ function HandleResponseDetailLoc(obj){
         lblNama.text = detail['name'];
         photos.widgetDataMap = {imgSlider:"imgSlider"};
         var banyakGambar = Object.keys(detail['photos']).length;
+        lblLokasi.text = detail['formatted_address'];
+//         lblDesc.text = detail['text'];
+        try{
+          rating = detail['rating'];
+        } catch (Exc) {
+          reting = 0;
+        }
+        lblRating.text = rating;
         var objPhoto = detail['photos'];
         for(i=0; i<banyakGambar; i++){
           var refPhoto = objPhoto[i]['photo_reference'];

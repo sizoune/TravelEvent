@@ -1,7 +1,6 @@
 {
     "@class": "com.kony.gen.viz.model.component.KVizLabel",
     "DNDConfig": null,
-    "__markedForDelete__": true,
     "__parentReadjusting__": false,
     "_height_": {
         "type": "ref",
@@ -9,7 +8,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "3dp"
+        "value": "5dp"
     },
     "_margin_": [
         1,
@@ -23,15 +22,15 @@
         0,
         0
     ],
-    "_skin_": "s505d679c71d4bdba8fd5c7664bc5862",
-    "_text_": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,",
+    "_skin_": "sbdc47ff70e546778d9f1c611187c988",
+    "_text_": "Deskripsi",
     "_top_": {
         "type": "string",
-        "value": "125dp"
+        "value": "100dp"
     },
     "_width_": {
         "type": "string",
-        "value": "95%"
+        "value": "95.83%"
     },
     "_wrapping_": 2,
     "android": {
@@ -55,12 +54,8 @@
             "wrapping": 2
         }
     },
-    "isvisible": true,
-    "kuid": "b52e903fdd1d43fabcb194affc428956",
-    "maxwidth": {
-        "type": "number",
-        "value": "100"
-    },
+    "isvisible": false,
+    "kuid": "fecd4018058342e7a6d2310bf6ffd168",
     "name": "kony.ui.Label",
     "parent": "flxMain",
     "pf": "frmDetailPlace",
