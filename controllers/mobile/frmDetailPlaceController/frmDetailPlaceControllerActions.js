@@ -2,6 +2,10 @@ define({
     /*
       This is an auto generated file and any modifications to it may result in corruption of the action sequence.
     */
+    AS_Form_c9c97f360b994ae289007e860e67c766: function AS_Form_c9c97f360b994ae289007e860e67c766(eventobject) {
+        var self = this;
+        return tampilkanDetail.call(this);
+    },
     AS_Form_df4bb137ea66492ba993bd144f083b83: function AS_Form_df4bb137ea66492ba993bd144f083b83(eventobject) {
         var self = this;
 

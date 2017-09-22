@@ -26,7 +26,7 @@
     "_text_": "Label",
     "_top_": {
         "type": "string",
-        "value": "46dp"
+        "value": "33dp"
     },
     "_width_": {
         "type": "ref",
@@ -43,7 +43,7 @@
     "containerId": true,
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "lbPrice",
+    "id": "lblDistance",
     "info": null,
     "ipad": {
         "psp": {
@@ -55,8 +55,9 @@
             "wrapping": 2
         }
     },
+    "isSegmentChild": true,
     "isvisible": true,
-    "kuid": "cfb001d9b4a74754850706b13affae40",
+    "kuid": "b5b0b2fae2264f2a943bfb47d47db6cd",
     "name": "kony.ui.Label",
     "parent": "CopyFBox0c8a19abc487a41",
     "pf": "CopyFBox0c8a19abc487a41",
