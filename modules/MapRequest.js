@@ -155,11 +155,6 @@ function HandleResponsePoi(objPoi){
           datc.push(dati)
         }
         segTourist.setData(datc);
-        //         var address = loc['formatted_address'];
-        //         locNow.text = address;
-        //         alert(this.view.lblTourist.text);
-        //         this.view.lblLokasiSekarang.text = loc;
-        //         frmTourist.lblLokasiSekarang.text = loc;
       }
       return;
     }
@@ -220,10 +215,10 @@ function HandleResponseEvent(objPoi){
 }
 
 
-// function klikRowutama() {
-//   var segSelectedIndex = segTourist.selectedIndex[1];
-//   kony.store.setItem("place_id", placeId[segSelectedIndex]);
-//   var ntf = new kony.mvc.Navigation("frmDetailPlace");
-//   ntf.navigate();
-// }
+function klikRowutama() {
+  var segSelectedIndex = segTourist.selectedIndex[1];
+  kony.store.setItem("place_id", placeId[segSelectedIndex]);
+  var ntf = new kony.mvc.Navigation("frmDetailPlace");
+  ntf.navigate();
+}
 
