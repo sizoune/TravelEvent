@@ -42,7 +42,7 @@
         "value": "50%"
     },
     "children": [
-        "sgmRekomendasi"
+        "segRekomendasiAcara"
     ],
     "clipbounds": true,
     "containerweight": 100,
@@ -50,14 +50,14 @@
     "dragg": false,
     "enablescrolling": true,
     "horizontalscrollindicator": true,
-    "id": "flxScroll",
+    "id": "flxScrollEvents",
     "info": null,
     "isvisible": true,
-    "kuid": "j0078577c4ce44caba033acf228dfcc6",
+    "kuid": "f6784f878a6d4456aa9f5a5d33d06634",
     "layouttype": 2,
     "name": "kony.ui.FlexScrollContainer",
     "pagingenabled": false,
-    "parent": "flxContentTourist",
+    "parent": "flxContentEvents",
     "pf": "frmTourist",
     "scrolldirection": 2,
     "snapgridsize": 10,
