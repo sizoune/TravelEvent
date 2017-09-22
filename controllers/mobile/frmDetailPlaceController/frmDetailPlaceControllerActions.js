@@ -4,7 +4,7 @@ define({
     */
     AS_Form_c9c97f360b994ae289007e860e67c766: function AS_Form_c9c97f360b994ae289007e860e67c766(eventobject) {
         var self = this;
-        tampilkanDetail();
+        return tampilkanDetail.call(this);
     },
     AS_Form_df4bb137ea66492ba993bd144f083b83: function AS_Form_df4bb137ea66492ba993bd144f083b83(eventobject) {
         var self = this;

@@ -14,11 +14,14 @@
         },
         "language": "js",
         "actions": [{
-            "id": "ADD_SNIPPET__ed8287673b0345ffa40686f60bcf4250",
-            "type": "ADD_SNIPPET",
-            "codeSnippet": "tampilkanDetail();",
+            "id": "INVOKE_FUNCTION___cf8cb643217e4a09838d01dc28ea56af",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "tampilkanDetail",
+            "display": "tampilkanDetail",
+            "inputparams": [],
             "parentId": null,
-            "callbackType": null
+            "callbackType": null,
+            "disabled": null
         }]
     }
 }

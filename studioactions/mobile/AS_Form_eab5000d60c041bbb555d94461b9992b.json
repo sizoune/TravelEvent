@@ -14,7 +14,7 @@
         },
         "language": "js",
         "actions": [{
-            "id": "INVOKE_FUNCTION___fdfb118abdb84c7b9ed01a02f8b57d1b",
+            "id": "INVOKE_FUNCTION___bb78454ead0949e9825dca7cb625aa09",
             "type": "INVOKE_FUNCTION",
             "sequenceKUID": "getCurrentLocation",
             "display": "getCurrentLocation",

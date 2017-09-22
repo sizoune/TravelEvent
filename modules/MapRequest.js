@@ -1,6 +1,10 @@
 //Type your code here
-var GOOGLE_API_KEY = "AIzaSyA9ZiU5azNIAPKnHDPWtz3LPXDn0ACWi9E";
+
+var GOOGLE_API_KEY = "AIzaSyBhcP9YePJeT1FlMOcgH7WB9_b-teG7Uvc";
 var TokenEventBrite = "HJ2XDA3GTYZATXHBWOZB";
+
+
+
 var locNow;
 var latitude;
 var longitude;
