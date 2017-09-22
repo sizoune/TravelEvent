@@ -12,6 +12,7 @@ var segTourist;
 var segEvent;
 var datc = [];
 var placeId = [];
+var dataE = [];
 
 function getCurrentLocation(){
   kony.location.getCurrentPosition(successcallback, errorcallback);
@@ -189,9 +190,9 @@ function HandleResponseEvent(objPoi){
         //         alert(segTourist.data);
         segEvent.widgetDataMap = {imgEvents:"imgEvents",lblNama:"lblNama",lblDatenTime:"lblDatenTime",lblDistance:"lblDistance",lblPrice:"lblPrice"};
 
-        var datc = [];
+        
 //         alert(lengthObject);
-        for(i=0; i<6; i++){
+        for(i=0; i<10; i++){
 
           var image = poi[i]['logo']['original']['url'];
           var dnt = poi[i]['start']['local']+"-"+poi[i]['end']['local'];
@@ -199,10 +200,10 @@ function HandleResponseEvent(objPoi){
           var price = 0;
           var distance = 0;
           var dati = {imgEvents:image ,lblNama:name,lblDatenTime:dnt,lblDistance:distance,lblPrice:price};
-          datc.push(dati)
+          dataE.push(dati)
 
         }
-        segEvent.setData(datc);
+        segEvent.setData(dataE);
       }
       return;
     }
