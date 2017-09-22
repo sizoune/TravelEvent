@@ -28,9 +28,9 @@
     "children": [
         "imgEvents",
         "lblNama",
-        "lblPrice",
-        "lbDistance",
-        "lbPrice"
+        "lblDatenTime",
+        "lblDistance",
+        "lblPrice"
     ],
     "clipbounds": false,
     "containerId": true,

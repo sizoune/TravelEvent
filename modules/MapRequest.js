@@ -1,15 +1,23 @@
 //Type your code here
+
 var GOOGLE_API_KEY = "AIzaSyBhcP9YePJeT1FlMOcgH7WB9_b-teG7Uvc";
+var TokenEventBrite = "HJ2XDA3GTYZATXHBWOZB";
+
+
+
 var locNow;
 var latitude;
 var longitude;
 var segTourist;
+var segEvent;
 var datc = [];
 var placeId = [];
+
 function getCurrentLocation(){
   kony.location.getCurrentPosition(successcallback, errorcallback);
   locNow = this.view.lblLokasiSekarang;
   segTourist = this.view.sgmRekomendasi;
+  segEvent = this.view.segRekomendasiAcara;
 }
 
 function getNearbyPlace(){
@@ -40,6 +48,24 @@ function successcallbackNearby(){
   httpRequestPoi.setRequestHeader("Content-Type", "application/json");
   httpRequestPoi.send();
   httpRequestPoi.onReadyStateChange = function(){ HandleResponsePoi(httpRequestPoi) };
+
+}
+
+function getEvent(){
+  var requestMethod = constants.HTTP_METHOD_GET;
+  var async = true;
+  var urlEvent = "https://www.eventbriteapi.com/v3/events/search?location.latitude=";
+  urlEvent = urlEvent.concat(latitude);
+  urlEvent = urlEvent.concat("&location.longitude=");
+  urlEvent = urlEvent.concat(longitude);
+  urlEvent = urlEvent.concat("&token=");
+  urlEvent = urlEvent.concat(TokenEventBrite);
+  //   +latitude+"&location.longitude="+longitude+"&token="+TokenEventBrite;
+  var httpRequestEvent = new kony.net.HttpRequest();
+  httpRequestEvent.open(requestMethod, urlEvent,async);
+  httpRequestEvent.setRequestHeader("Content-Type", "application/json");
+  httpRequestEvent.send();
+  httpRequestEvent.onReadyStateChange = function(){ HandleResponseEvent(httpRequestEvent) };
 }
 
 function requestPhotoSegment(reference){
@@ -71,7 +97,10 @@ function HandleResponseLoc(obj){
         //         alert(panjangObject);
         var address = loc['formatted_address'];
         locNow.text = address;
+        
         successcallbackNearby();
+		getEvent();
+
         //         alert(this.view.lblTourist.text);
         //         this.view.lblLokasiSekarang.text = loc;
         //         frmTourist.lblLokasiSekarang.text = loc;
@@ -136,6 +165,55 @@ function HandleResponsePoi(objPoi){
   }
 
 }
+
+function HandleResponseEvent(objPoi){
+  //   alert(objPoi);
+  if(objPoi.readyState == 4 )
+  {
+    if (objPoi.response != null && objPoi.response != "")
+    {
+      //       alert(obj.response);
+      var jsonObj = objPoi.response;
+
+      if('error' in jsonObj){
+
+        var obj = jsonObj['error']['message'];
+
+      }else{
+
+        var poi = jsonObj['events'];
+        var lengthObject = Object.keys(poi).length;
+
+        //         alert(poi);
+
+        //         alert(segTourist.data);
+        segEvent.widgetDataMap = {imgEvents:"imgEvents",lblNama:"lblNama",lblDatenTime:"lblDatenTime",lblDistance:"lblDistance",lblPrice:"lblPrice"};
+
+        var datc = [];
+//         alert(lengthObject);
+        for(i=0; i<6; i++){
+
+          var image = poi[i]['logo']['original']['url'];
+          var dnt = poi[i]['start']['local']+"-"+poi[i]['end']['local'];
+          var name = poi[i]['name']['text'];
+          var price = 0;
+          var distance = 0;
+          var dati = {imgEvents:image ,lblNama:name,lblDatenTime:dnt,lblDistance:distance,lblPrice:price};
+          datc.push(dati)
+
+        }
+        segEvent.setData(datc);
+      }
+      return;
+    }
+    else
+    {
+
+    }
+  }
+
+}
+
 
 function klikRowutama() {
   var segSelectedIndex = segTourist.selectedIndex[1];
