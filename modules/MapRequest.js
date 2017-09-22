@@ -10,7 +10,7 @@ var latitude;
 var longitude;
 var segTourist;
 var segEvent;
-var datc = [];
+var datPlace = [];
 var placeId = [];
 
 function getCurrentLocation(){
@@ -152,9 +152,9 @@ function HandleResponsePoi(objPoi){
           var uri3 = uri2.concat("&key=");
           var uri4 = uri3.concat(GOOGLE_API_KEY);
           var dati = {imgRekomendasi:uri4 ,lblNama:name,lblRating:rating,lblPrice:price,lblDistance:distance};
-          datc.push(dati)
+          datPlace.push(dati)
         }
-        segTourist.setData(datc);
+        segTourist.setData(datPlace);
       }
       return;
     }
@@ -183,14 +183,9 @@ function HandleResponseEvent(objPoi){
 
         var poi = jsonObj['events'];
         var lengthObject = Object.keys(poi).length;
-
-        //         alert(poi);
-
-        //         alert(segTourist.data);
         segEvent.widgetDataMap = {imgEvents:"imgEvents",lblNama:"lblNama",lblDatenTime:"lblDatenTime",lblDistance:"lblDistance",lblPrice:"lblPrice"};
 
         var datc = [];
-//         alert(lengthObject);
         for(i=0; i<6; i++){
 
           var image = poi[i]['logo']['original']['url'];
