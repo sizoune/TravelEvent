@@ -158,12 +158,12 @@ define({
         self.view.flxBackTourist["isVisible"] = false;
         self.view.flxBackEvents["isVisible"] = true;
     },
-    AS_Form_eab5000d60c041bbb555d94461b9992b: function AS_Form_eab5000d60c041bbb555d94461b9992b(eventobject) {
-        var self = this;
-        return getCurrentLocation.call(this);
-    },
     AS_Segment_c720a62ebabc49d3a08a1ef3715c9e5e: function AS_Segment_c720a62ebabc49d3a08a1ef3715c9e5e(eventobject, sectionNumber, rowNumber) {
         var self = this;
         klikRowutama();
+    },
+    AS_Form_eab5000d60c041bbb555d94461b9992b: function AS_Form_eab5000d60c041bbb555d94461b9992b(eventobject) {
+        var self = this;
+        return getCurrentLocation.call(this);
     }
 });

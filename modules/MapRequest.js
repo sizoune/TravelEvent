@@ -44,7 +44,7 @@ function successcallbackNearby(){
   httpRequestPoi.setRequestHeader("Content-Type", "application/json");
   httpRequestPoi.send();
   httpRequestPoi.onReadyStateChange = function(){ HandleResponsePoi(httpRequestPoi) };
-  
+
 }
 
 function getEvent(){
@@ -56,7 +56,7 @@ function getEvent(){
   urlEvent = urlEvent.concat(longitude);
   urlEvent = urlEvent.concat("&token=");
   urlEvent = urlEvent.concat(TokenEventBrite);
-//   +latitude+"&location.longitude="+longitude+"&token="+TokenEventBrite;
+  //   +latitude+"&location.longitude="+longitude+"&token="+TokenEventBrite;
   var httpRequestEvent = new kony.net.HttpRequest();
   httpRequestEvent.open(requestMethod, urlEvent,async);
   httpRequestEvent.setRequestHeader("Content-Type", "application/json");
@@ -93,8 +93,10 @@ function HandleResponseLoc(obj){
         //         alert(panjangObject);
         var address = loc['formatted_address'];
         locNow.text = address;
-        successcallbackNearby();
         
+        successcallbackNearby();
+		getEvent();
+
         //         alert(this.view.lblTourist.text);
         //         this.view.lblLokasiSekarang.text = loc;
         //         frmTourist.lblLokasiSekarang.text = loc;
@@ -149,8 +151,6 @@ function HandleResponsePoi(objPoi){
           datc.push(dati)
         }
         segTourist.setData(datc);
-
-        getEvent();
         //         var address = loc['formatted_address'];
         //         locNow.text = address;
         //         alert(this.view.lblTourist.text);
@@ -168,7 +168,7 @@ function HandleResponsePoi(objPoi){
 }
 
 function HandleResponseEvent(objPoi){
-  alert(objPoi);
+  //   alert(objPoi);
   if(objPoi.readyState == 4 )
   {
     if (objPoi.response != null && objPoi.response != "")
@@ -184,29 +184,26 @@ function HandleResponseEvent(objPoi){
 
         var poi = jsonObj['events'];
         var lengthObject = Object.keys(poi).length;
-        
-        alert(poi);
+
+        //         alert(poi);
 
         //         alert(segTourist.data);
         segEvent.widgetDataMap = {imgEvents:"imgEvents",lblNama:"lblNama",lblDatenTime:"lblDatenTime",lblDistance:"lblDistance",lblPrice:"lblPrice"};
-        
+
         var datc = [];
-        
-        for(i=0; i<lengthObject; i++){
+//         alert(lengthObject);
+        for(i=0; i<6; i++){
+
           var image = poi[i]['logo']['original']['url'];
           var dnt = poi[i]['start']['local']+"-"+poi[i]['end']['local'];
           var name = poi[i]['name']['text'];
           var price = 0;
           var distance = 0;
-          var dati = {imgRekomendasi:image ,lblNama:name,lblDatenTime:dnt,lblDistance:distance,lblPrice:price};
+          var dati = {imgEvents:image ,lblNama:name,lblDatenTime:dnt,lblDistance:distance,lblPrice:price};
           datc.push(dati)
+
         }
         segEvent.setData(datc);
-        //         var address = loc['formatted_address'];
-        //         locNow.text = address;
-        //         alert(this.view.lblTourist.text);
-        //         this.view.lblLokasiSekarang.text = loc;
-        //         frmTourist.lblLokasiSekarang.text = loc;
       }
       return;
     }
@@ -219,10 +216,10 @@ function HandleResponseEvent(objPoi){
 }
 
 
-function klikRowutama() {
-  var segSelectedIndex = segTourist.selectedIndex[1];
-  kony.store.setItem("place_id", placeId[segSelectedIndex]);
-  var ntf = new kony.mvc.Navigation("frmDetailPlace");
-  ntf.navigate();
-}
+// function klikRowutama() {
+//   var segSelectedIndex = segTourist.selectedIndex[1];
+//   kony.store.setItem("place_id", placeId[segSelectedIndex]);
+//   var ntf = new kony.mvc.Navigation("frmDetailPlace");
+//   ntf.navigate();
+// }
 

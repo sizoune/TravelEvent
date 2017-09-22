@@ -29,8 +29,8 @@
         "imgEvents",
         "lblNama",
         "lblDatenTime",
-        "lbDistance",
-        "lbPrice"
+        "lblDistance",
+        "lblPrice"
     ],
     "clipbounds": false,
     "containerId": true,

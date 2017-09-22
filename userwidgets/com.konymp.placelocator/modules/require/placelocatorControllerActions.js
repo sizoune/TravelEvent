@@ -2,14 +2,6 @@ define({
     /*
       This is an auto generated file and any modifications to it may result in corruption of the action sequence.
     */
-    AS_TextField_d58841e690554303982bed4108691e3b: function AS_TextField_d58841e690554303982bed4108691e3b(eventobject, x, y) {
-        var self = this;
-        this.changeLocationStart();
-    },
-    AS_TextField_jeaa0c3e9b614c8faa88a4c1cb50efea: function AS_TextField_jeaa0c3e9b614c8faa88a4c1cb50efea(eventobject, x, y) {
-        var self = this;
-        this.changeCategoryStart();
-    },
     AS_Label_db16b1af810f4434ab0ffb9ea7c85236: function AS_Label_db16b1af810f4434ab0ffb9ea7c85236(eventobject, x, y) {
         var self = this;
         this.applyFilter();
@@ -69,6 +61,14 @@ define({
     AS_Label_jb1f38ab004744619112ff5948e58cd6: function AS_Label_jb1f38ab004744619112ff5948e58cd6(eventobject, x, y) {
         var self = this;
         this.resetFilters();
+    },
+    AS_TextField_d58841e690554303982bed4108691e3b: function AS_TextField_d58841e690554303982bed4108691e3b(eventobject, x, y) {
+        var self = this;
+        this.changeLocationStart();
+    },
+    AS_TextField_jeaa0c3e9b614c8faa88a4c1cb50efea: function AS_TextField_jeaa0c3e9b614c8faa88a4c1cb50efea(eventobject, x, y) {
+        var self = this;
+        this.changeCategoryStart();
     },
     AS_FlexContainer_a5ef4136774245c998c0f733e6994b18: function AS_FlexContainer_a5ef4136774245c998c0f733e6994b18(eventobject) {
         var self = this;

@@ -43,7 +43,7 @@
     "containerId": true,
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "lbDistance",
+    "id": "lblDistance",
     "info": null,
     "ipad": {
         "psp": {
