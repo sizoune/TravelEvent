@@ -1,13 +1,23 @@
 //Type your code here
-var GOOGLE_API_KEY = "AIzaSyA9ZiU5azNIAPKnHDPWtz3LPXDn0ACWi9E";
+
+var GOOGLE_API_KEY = "AIzaSyBhcP9YePJeT1FlMOcgH7WB9_b-teG7Uvc";
+var TokenEventBrite = "HJ2XDA3GTYZATXHBWOZB";
+
+
+
 var locNow;
 var latitude;
 var longitude;
 var segTourist;
+var segEvent;
+var datc = [];
+var placeId = [];
+
 function getCurrentLocation(){
   kony.location.getCurrentPosition(successcallback, errorcallback);
   locNow = this.view.lblLokasiSekarang;
   segTourist = this.view.sgmRekomendasi;
+  segEvent = this.view.segRekomendasiAcara;
 }
 
 function getNearbyPlace(){
@@ -38,6 +48,24 @@ function successcallbackNearby(){
   httpRequestPoi.setRequestHeader("Content-Type", "application/json");
   httpRequestPoi.send();
   httpRequestPoi.onReadyStateChange = function(){ HandleResponsePoi(httpRequestPoi) };
+
+}
+
+function getEvent(){
+  var requestMethod = constants.HTTP_METHOD_GET;
+  var async = true;
+  var urlEvent = "https://www.eventbriteapi.com/v3/events/search?location.latitude=";
+  urlEvent = urlEvent.concat(latitude);
+  urlEvent = urlEvent.concat("&location.longitude=");
+  urlEvent = urlEvent.concat(longitude);
+  urlEvent = urlEvent.concat("&token=");
+  urlEvent = urlEvent.concat(TokenEventBrite);
+  //   +latitude+"&location.longitude="+longitude+"&token="+TokenEventBrite;
+  var httpRequestEvent = new kony.net.HttpRequest();
+  httpRequestEvent.open(requestMethod, urlEvent,async);
+  httpRequestEvent.setRequestHeader("Content-Type", "application/json");
+  httpRequestEvent.send();
+  httpRequestEvent.onReadyStateChange = function(){ HandleResponseEvent(httpRequestEvent) };
 }
 
 function requestPhotoSegment(reference){
@@ -69,7 +97,10 @@ function HandleResponseLoc(obj){
         //         alert(panjangObject);
         var address = loc['formatted_address'];
         locNow.text = address;
+        
         successcallbackNearby();
+		getEvent();
+
         //         alert(this.view.lblTourist.text);
         //         this.view.lblLokasiSekarang.text = loc;
         //         frmTourist.lblLokasiSekarang.text = loc;
@@ -103,23 +134,6 @@ function HandleResponsePoi(objPoi){
         //         alert(segTourist.data);
         segTourist.widgetDataMap = {imgRekomendasi:"imgRekomendasi",lblNama:"lblNama",lblRating:"lblRating",lblPrice:"lblPrice",lblDistance:"lblDistance"};
         var uriimage = "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400";
-
-        //         var image = "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=CnRtAAAATLZNl354RwP_9UKbQ_5Psy40texXePv4oAlgP4qNEkdIrkyse7rPXYGd9D_Uj1rVsQdWT4oRz4QrYAJNpFX7rzqqMlZw2h2E2y5IKMUZ7ouD_SlcHxYq1yL4KbKUv3qtWgTK0A6QbGh87GB3sscrHRIQiG2RrmU_jF4tENr9wGS_YxoUSSDrYjWmrNfeEHSGSc3FyhNLlBU&key=AIzaSyA9ZiU5azNIAPKnHDPWtz3LPXDn0ACWi9E";
-
-
-        var datc = [];
-        //         var gambar = poi[0]['photos'];
-        //           var refPhoto = gambar[0]['photo_reference'];
-        //         var name = poi[0]['name'];
-        //           var rating = poi[0]['rating'];
-        //           var price = 0;
-        //           var distance = 0;
-        //           var uri2 = uriimage.concat("&photoreference="+refPhoto);
-        //           var uri3 = uri2.concat("&key=");
-        //           var uri4 = uri3.concat(GOOGLE_API_KEY);
-        //           var datc = [{imgRekomendasi:uri4 ,lblNama:name,lblRating:rating,lblPrice:price,lblDistance:distance}];
-        //         segTourist.addAll({imgRekomendasi:"https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference="+refPhoto+"&key="+GOOGLE_API_KEY,lblNama:name,lblRating:rating,lblPrice:price,lblDistance:distance});
-        //         segTourist.setData(dataCoba);
         for(i=0; i<lengthObject; i++){
           var gambar = poi[i]['photos'];
           var refPhoto;
@@ -128,6 +142,7 @@ function HandleResponsePoi(objPoi){
           } catch(Exc) {
             refPhoto = "";
           }
+          placeId.push(poi[i]['place_id'])
           //           alert(refPhoto);
           var name = poi[i]['name'];
           var rating = poi[i]['rating'];
@@ -140,11 +155,6 @@ function HandleResponsePoi(objPoi){
           datc.push(dati)
         }
         segTourist.setData(datc);
-        //         var address = loc['formatted_address'];
-        //         locNow.text = address;
-        //         alert(this.view.lblTourist.text);
-        //         this.view.lblLokasiSekarang.text = loc;
-        //         frmTourist.lblLokasiSekarang.text = loc;
       }
       return;
     }
@@ -155,3 +165,60 @@ function HandleResponsePoi(objPoi){
   }
 
 }
+
+function HandleResponseEvent(objPoi){
+  //   alert(objPoi);
+  if(objPoi.readyState == 4 )
+  {
+    if (objPoi.response != null && objPoi.response != "")
+    {
+      //       alert(obj.response);
+      var jsonObj = objPoi.response;
+
+      if('error' in jsonObj){
+
+        var obj = jsonObj['error']['message'];
+
+      }else{
+
+        var poi = jsonObj['events'];
+        var lengthObject = Object.keys(poi).length;
+
+        //         alert(poi);
+
+        //         alert(segTourist.data);
+        segEvent.widgetDataMap = {imgEvents:"imgEvents",lblNama:"lblNama",lblDatenTime:"lblDatenTime",lblDistance:"lblDistance",lblPrice:"lblPrice"};
+
+        var datc = [];
+//         alert(lengthObject);
+        for(i=0; i<6; i++){
+
+          var image = poi[i]['logo']['original']['url'];
+          var dnt = poi[i]['start']['local']+"-"+poi[i]['end']['local'];
+          var name = poi[i]['name']['text'];
+          var price = 0;
+          var distance = 0;
+          var dati = {imgEvents:image ,lblNama:name,lblDatenTime:dnt,lblDistance:distance,lblPrice:price};
+          datc.push(dati)
+
+        }
+        segEvent.setData(datc);
+      }
+      return;
+    }
+    else
+    {
+
+    }
+  }
+
+}
+
+
+function klikRowutama() {
+  var segSelectedIndex = segTourist.selectedIndex[1];
+  kony.store.setItem("place_id", placeId[segSelectedIndex]);
+  var ntf = new kony.mvc.Navigation("frmDetailPlace");
+  ntf.navigate();
+}
+

@@ -1,0 +1,27 @@
+{
+    "AS_Form_c9c97f360b994ae289007e860e67c766": {
+        "id": "AS_Form_c9c97f360b994ae289007e860e67c766",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmDetailPlace",
+            "type": "forms",
+            "platform": "",
+            "KUID": "e322b6b9aeca4f0e8368b322c179bf44"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___cf8cb643217e4a09838d01dc28ea56af",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "tampilkanDetail",
+            "display": "tampilkanDetail",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null
+        }]
+    }
+}
