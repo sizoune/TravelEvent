@@ -2,6 +2,11 @@ define({
     /*
       This is an auto generated file and any modifications to it may result in corruption of the action sequence.
     */
+    AS_Button_j05aa1b1b99d48e69408304fd48dd4e1: function AS_Button_j05aa1b1b99d48e69408304fd48dd4e1(eventobject) {
+        var self = this;
+        var ntf = new kony.mvc.Navigation("frmTourist");
+        ntf.navigate();
+    },
     AS_Form_c9c97f360b994ae289007e860e67c766: function AS_Form_c9c97f360b994ae289007e860e67c766(eventobject) {
         var self = this;
         return tampilkanDetail.call(this);

@@ -23,10 +23,10 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "sbdd2358eccc40a38c9ac0f792e4d259",
+    "_skin_": "s3e8c66a023e4e5298775acf1595ff7b",
     "_top_": {
         "type": "string",
-        "value": "100%"
+        "value": "28%"
     },
     "_width_": {
         "type": "string",
@@ -38,7 +38,8 @@
     "bounces": true,
     "canUpdateUI": true,
     "children": [
-        "flxMain"
+        "flxMain",
+        "btnBack"
     ],
     "clipbounds": true,
     "containerweight": 100,

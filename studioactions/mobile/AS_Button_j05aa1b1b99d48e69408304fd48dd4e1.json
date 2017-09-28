@@ -1,0 +1,28 @@
+{
+    "AS_Button_j05aa1b1b99d48e69408304fd48dd4e1": {
+        "id": "AS_Button_j05aa1b1b99d48e69408304fd48dd4e1",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmDetailPlace",
+            "type": "forms",
+            "platform": "",
+            "KUID": "e322b6b9aeca4f0e8368b322c179bf44"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___d0a3c94468f6424bae39de30bfcb97b5",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmTourist",
+            "formKUID": "b88cf7bacfd246c4a7b0b15fb902e069",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true
+        }]
+    }
+}

@@ -5,7 +5,7 @@
     "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "125dp"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
@@ -24,14 +24,10 @@
         0
     ],
     "_skin_": "sfd6a51fd7ef40dabf6470171d180da9",
-    "_src_": "slider_ios7.png",
-    "_top_": {
-        "type": "string",
-        "value": "0"
-    },
+    "_src_": "logo1.png",
     "_width_": {
         "type": "string",
-        "value": "125dp"
+        "value": "100%"
     },
     "canUpdateUI": true,
     "containerweight": 100,

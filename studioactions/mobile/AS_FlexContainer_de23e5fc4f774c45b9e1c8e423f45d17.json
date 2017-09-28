@@ -1,0 +1,76 @@
+{
+    "AS_FlexContainer_de23e5fc4f774c45b9e1c8e423f45d17": {
+        "id": "AS_FlexContainer_de23e5fc4f774c45b9e1c8e423f45d17",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmTourist",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b88cf7bacfd246c4a7b0b15fb902e069"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled___ae58667dccf04955a0effd7f79ae892f",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "frmTourist",
+            "widgetId": "flxBackEvents",
+            "propertyName": "isVisible",
+            "propertyValue": "false",
+            "itemKUID": "b88cf7bacfd246c4a7b0b15fb902e069",
+            "widgetKUID": "e75a7dcea9014196977df01d840ed071",
+            "isSkinProperty": false,
+            "wType": "FlexContainer",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null,
+            "widgetPath": "this.view.flxBackEvents"
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled___eefc3120e76e4a1997be397ef9f909c1",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "frmTourist",
+            "widgetId": "flxBackTourist",
+            "propertyName": "isVisible",
+            "propertyValue": "false",
+            "itemKUID": "b88cf7bacfd246c4a7b0b15fb902e069",
+            "widgetKUID": "jb279260b7c247718e57f36c1386e41f",
+            "isSkinProperty": false,
+            "wType": "FlexContainer",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null,
+            "widgetPath": "this.view.flxBackTourist"
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled___c3c0f20925794016b495d3bfdcd8b51f",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "frmTourist",
+            "widgetId": "flxBackUser",
+            "propertyName": "isVisible",
+            "propertyValue": "true",
+            "itemKUID": "b88cf7bacfd246c4a7b0b15fb902e069",
+            "widgetKUID": "d10611821df54999a58ec3d04773c1d3",
+            "isSkinProperty": false,
+            "wType": "FlexContainer",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null,
+            "widgetPath": "this.view.flxBackUser"
+        }, {
+            "id": "NAVIGATE_TO_FORM___c6236091070b48679abb43d38a0cce8f",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmOptionLoginSignup",
+            "formKUID": "i634fb3834d4465da80f2022b8c66296",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true
+        }]
+    }
+}

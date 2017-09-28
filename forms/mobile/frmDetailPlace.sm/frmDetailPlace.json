@@ -20,6 +20,7 @@
     "addWidgetsdone": false,
     "allboxes": [],
     "android": {
+        "needAppMenu": false,
         "psp": {
             "windowSoftInputMode": 2
         }
@@ -41,7 +42,7 @@
     "desktopweb": {
         "needAppMenu": false
     },
-    "device": "GalaxyS5",
+    "device": "iPhone6",
     "displayorientation": 1,
     "enabledforidletimeout": false,
     "id": "frmDetailPlace",
@@ -56,6 +57,7 @@
         }
     },
     "iphone": {
+        "needAppMenu": false,
         "psp": {
             "inputAccessoryViewType": 4,
             "titleBarConfig": {
@@ -71,10 +73,10 @@
                 "titleBarRightSideView": "button",
                 "titleClosureLeftSideView": "",
                 "titleClosureRightSideView": "",
-                "visible": true
+                "visible": false
             }
         },
-        "titleBar": true
+        "titleBar": false
     },
     "isvisible": true,
     "kuid": "e322b6b9aeca4f0e8368b322c179bf44",
@@ -82,15 +84,30 @@
     "name": "kony.ui.Form2",
     "needappmenu": true,
     "paddinginpixel": false,
-    "platform": "android",
-    "prevDevice": "iPhone6",
-    "prevPlatform": "iphone",
+    "platform": "iphone",
+    "prevDevice": "GalaxyS5",
+    "prevPlatform": "android",
     "retainscrollposition": false,
-    "shellCSS": "and_GalaxyS5",
+    "shellCSS": "iOS_iPhone6",
     "snapgridsize": 10,
     "snaptogrid": true,
+    "spaan": {
+        "needAppMenu": false
+    },
+    "spabb": {
+        "needAppMenu": false
+    },
+    "spaip": {
+        "needAppMenu": false
+    },
+    "spawinphone8": {
+        "needAppMenu": false
+    },
     "titleBarSkin": "s0c01e6f28e04c508280df4038d91ec5",
     "titlebar": true,
     "type": 3,
-    "wType": "Form"
+    "wType": "Form",
+    "winphone8": {
+        "needAppMenu": false
+    }
 }

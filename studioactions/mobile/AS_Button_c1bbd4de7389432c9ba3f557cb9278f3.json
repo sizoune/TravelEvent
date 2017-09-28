@@ -14,14 +14,15 @@
         },
         "language": "js",
         "actions": [{
-            "id": "INVOKE_FUNCTION___bbcff7c56a4e4f50a875538714f64989",
-            "type": "INVOKE_FUNCTION",
-            "sequenceKUID": "getServerResponceOption",
-            "display": "getServerResponceOption",
-            "inputparams": [],
-            "parentId": null,
+            "id": "NAVIGATE_TO_FORM___d9472e51b24c4903ade4c43009cae1e7",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmTourist",
+            "formKUID": "b88cf7bacfd246c4a7b0b15fb902e069",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
             "callbackType": null,
-            "disabled": null
+            "enableMappingEditor": true
         }]
     }
 }

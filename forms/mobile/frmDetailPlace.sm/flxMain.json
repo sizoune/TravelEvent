@@ -31,7 +31,7 @@
     "_skin_": "sdbfe9b9535b4fb997522077092c601a",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "15dp"
     },
     "allboxes": [],
     "autogrowmode": 1,
@@ -39,7 +39,6 @@
     "children": [
         "lblNama",
         "lblRating",
-        "lblHarga",
         "lblLokasi",
         "lblDesc"
     ],

@@ -27,7 +27,7 @@
     "_text_": "Rating",
     "_top_": {
         "type": "string",
-        "value": "35dp"
+        "value": "50dp"
     },
     "_width_": {
         "type": "ref",

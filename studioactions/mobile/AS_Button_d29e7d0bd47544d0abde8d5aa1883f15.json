@@ -14,14 +14,15 @@
         },
         "language": "js",
         "actions": [{
-            "id": "INVOKE_FUNCTION___c396c7e4ffdd4dfdba1cf1e59ac88880",
-            "type": "INVOKE_FUNCTION",
-            "sequenceKUID": "signup",
-            "display": "signup",
-            "inputparams": [],
-            "parentId": null,
+            "id": "NAVIGATE_TO_FORM___b24567f8ee0346b695a3c85cccf3603f",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmOptionLoginSignup",
+            "formKUID": "i634fb3834d4465da80f2022b8c66296",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
             "callbackType": null,
-            "disabled": null
+            "enableMappingEditor": true
         }]
     }
 }

@@ -117,6 +117,7 @@ define({
         });
         self.view.flxBackEvents["isVisible"] = false;
         self.view.flxBackTourist["isVisible"] = true;
+        self.view.flxBackUser["isVisible"] = false;
     },
     AS_FlexContainer_c756e56e950147828e3a4ffbfcb92823: function AS_FlexContainer_c756e56e950147828e3a4ffbfcb92823(eventobject) {
         var self = this;
@@ -157,6 +158,19 @@ define({
         });
         self.view.flxBackTourist["isVisible"] = false;
         self.view.flxBackEvents["isVisible"] = true;
+        self.view.flxBackUser["isVisible"] = false;
+    },
+    AS_FlexContainer_b352b8cfd2d5439e9a51ddc5eb8b08d4: function AS_FlexContainer_b352b8cfd2d5439e9a51ddc5eb8b08d4(eventobject) {
+        var self = this;
+        self.view.flxBackEvents["isVisible"] = false;
+        self.view.flxBackTourist["isVisible"] = false;
+        self.view.flxBackUser["isVisible"] = true;
+        var ntf = new kony.mvc.Navigation("frmOptionLoginSignup");
+        ntf.navigate();
+    },
+    AS_Segment_h9a106c880784e7c835e46cd0e27681b: function AS_Segment_h9a106c880784e7c835e46cd0e27681b(eventobject, sectionNumber, rowNumber) {
+        var self = this;
+        klikRowutama();
     },
     AS_Form_eab5000d60c041bbb555d94461b9992b: function AS_Form_eab5000d60c041bbb555d94461b9992b(eventobject) {
         var self = this;
