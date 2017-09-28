@@ -75,12 +75,12 @@ define(function() {
             this.initGettersSetters.apply(this, arguments);
         }
     };
-    controller.Action15065818649835184 = function() {
+    controller.Action15066121362132769 = function() {
         if (this.cancelClicked) {
             this.cancelClicked.apply(this, arguments);
         }
     }
-    controller.Action15065818650776287 = function() {
+    controller.Action15066121362706010 = function() {
         if (this.onEditLocationDone) {
             this.onEditLocationDone.apply(this, arguments);
         }

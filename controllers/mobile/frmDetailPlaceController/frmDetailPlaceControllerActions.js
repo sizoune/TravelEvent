@@ -7,6 +7,10 @@ define({
         var ntf = new kony.mvc.Navigation("frmTourist");
         ntf.navigate();
     },
+    AS_FlexContainer_bd78e7a732c04504a92f06ef91159dd7: function AS_FlexContainer_bd78e7a732c04504a92f06ef91159dd7(eventobject) {
+        var self = this;
+        return getDirectionArah.call(this);
+    },
     AS_Form_c9c97f360b994ae289007e860e67c766: function AS_Form_c9c97f360b994ae289007e860e67c766(eventobject) {
         var self = this;
         return tampilkanDetail.call(this);

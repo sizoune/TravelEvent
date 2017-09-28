@@ -1,0 +1,27 @@
+{
+    "AS_Form_cdf2742a59f24976a200c7cffc80d452": {
+        "id": "AS_Form_cdf2742a59f24976a200c7cffc80d452",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmDirection",
+            "type": "forms",
+            "platform": null,
+            "KUID": "c7b147081aab41258bddeb53c50e44c7"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___i8d8b327ad8d410db8830b8c0b8b0ac4",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "getDirectionArah",
+            "display": "getDirectionArah",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null
+        }]
+    }
+}

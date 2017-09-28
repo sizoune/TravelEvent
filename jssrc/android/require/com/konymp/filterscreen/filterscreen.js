@@ -33,7 +33,7 @@ define(function() {
             "id": "lblCancel",
             "isVisible": true,
             "left": "5%",
-            "onTouchEnd": controller.Action15065818632162723,
+            "onTouchEnd": controller.Action15066121351490507,
             "skin": "sknLblffffffNunitoR120",
             "text": "Cancel",
             "textStyle": {
