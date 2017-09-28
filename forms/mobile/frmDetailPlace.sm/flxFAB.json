@@ -43,6 +43,7 @@
     "containerweight": 100,
     "enablescrolling": true,
     "id": "flxFAB",
+    "ide_onClick": "AS_FlexContainer_bd78e7a732c04504a92f06ef91159dd7",
     "info": null,
     "isvisible": true,
     "kuid": "g0ca723c11694fd19ffff3b510f67524",

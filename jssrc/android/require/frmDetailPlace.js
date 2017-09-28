@@ -191,6 +191,7 @@ define("frmDetailPlace", function() {
                 "id": "flxFAB",
                 "isVisible": true,
                 "layoutType": kony.flex.FREE_FORM,
+                "onClick": controller.AS_FlexContainer_bd78e7a732c04504a92f06ef91159dd7,
                 "right": "10dp",
                 "skin": "CopyslFbox0c5bce540ae134f",
                 "width": "50dp",

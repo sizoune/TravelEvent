@@ -1,5 +1,5 @@
 //Type your code here
-var GOOGLE_API_KEY = "AIzaSyBhcP9YePJeT1FlMOcgH7WB9_b-teG7Uvc";
+var GOOGLE_API_KEY = "AIzaSyCC2WIKsfEA-C2H6sRIJsC2fPhBZ38YTw8";
 var placeid;
 var URL ;
 var photos, lblNama, lblRating, lblDesc, lblLokasi;

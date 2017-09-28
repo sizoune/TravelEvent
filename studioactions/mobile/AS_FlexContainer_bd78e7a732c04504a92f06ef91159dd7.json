@@ -1,0 +1,27 @@
+{
+    "AS_FlexContainer_bd78e7a732c04504a92f06ef91159dd7": {
+        "id": "AS_FlexContainer_bd78e7a732c04504a92f06ef91159dd7",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmDetailPlace",
+            "type": "forms",
+            "platform": "",
+            "KUID": "e322b6b9aeca4f0e8368b322c179bf44"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___cf28813529c542a7a93ff503b4321e59",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "getDirectionArah",
+            "display": "getDirectionArah",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null
+        }]
+    }
+}

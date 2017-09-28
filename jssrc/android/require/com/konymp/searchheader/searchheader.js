@@ -65,7 +65,7 @@ define(function() {
             "id": "lblCancel",
             "isVisible": false,
             "left": "5%",
-            "onTouchEnd": controller.Action15065818649835184,
+            "onTouchEnd": controller.Action15066121362132769,
             "skin": "sknLblffffffNunitoR91",
             "text": "Cancel",
             "textStyle": {
@@ -106,7 +106,7 @@ define(function() {
             "isVisible": true,
             "keyBoardStyle": constants.TEXTBOX_KEY_BOARD_STYLE_DEFAULT,
             "left": "0%",
-            "onDone": controller.Action15065818650776287,
+            "onDone": controller.Action15066121362706010,
             "onTextChange": controller.AS_TextField_d40a8ca548054c5fb4e95502852500b2,
             "onTouchStart": controller.AS_TextField_d58841e690554303982bed4108691e3b,
             "secureTextEntry": false,

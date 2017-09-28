@@ -47,6 +47,7 @@ define({
         kony.mvc.registry.add("flxInvisible", "flxInvisible", "flxInvisibleController");
         kony.mvc.registry.add("frmDetailGambar", "frmDetailGambar", "frmDetailGambarController");
         kony.mvc.registry.add("frmDetailPlace", "frmDetailPlace", "frmDetailPlaceController");
+        kony.mvc.registry.add("frmDirection", "frmDirection", "frmDirectionController");
         kony.mvc.registry.add(" ", "frmLogin", "frmLoginController");
         kony.mvc.registry.add("frmOptionLoginSignup", "frmOptionLoginSignup", "frmOptionLoginSignupController");
         kony.mvc.registry.add("frmSignUp", "frmSignUp", "frmSignUpController");

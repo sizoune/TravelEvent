@@ -34,7 +34,7 @@ define(function() {
             "id": "mapLayout",
             "isVisible": true,
             "left": "0%",
-            "onClick": controller.Action15065818637932759,
+            "onClick": controller.Action15066121354353612,
             "onPinClick": controller.AS_Map_i1f07d1447eb4687a71060f5b47f5e9b,
             "provider": constants.MAP_PROVIDER_GOOGLE,
             "top": "0%",
@@ -109,7 +109,7 @@ define(function() {
             "isVisible": true,
             "layoutType": kony.flex.FREE_FORM,
             "left": "85%",
-            "onClick": controller.Action15065818639578965,
+            "onClick": controller.Action15066121355244586,
             "skin": "sknFlx34495eRound",
             "width": 45,
             "zIndex": 1

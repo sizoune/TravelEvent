@@ -4,6 +4,8 @@ var TokenEventBrite = "HJ2XDA3GTYZATXHBWOZB";
 var locNow;
 var latitude;
 var longitude;
+var latTujuan = [];
+var longTujuan = [];
 var segTourist;
 var segEvent;
 var datPlace = [];
@@ -125,12 +127,18 @@ function HandleResponsePoi(objPoi) {
                 var uriimage = "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400";
                 for (i = 0; i < lengthObject; i++) {
                     var gambar = poi[i]['photos'];
+                    var geometry = poi[i]['geometry'];
+                    var lokasi = geometry['location'];
                     var refPhoto;
                     try {
                         refPhoto = gambar[0]['photo_reference'];
                     } catch (Exc) {
                         refPhoto = "";
                     }
+                    var lattujuan = lokasi['lat'];
+                    var longtujuan = lokasi['lng'];
+                    latTujuan.push(lattujuan);
+                    longTujuan.push(longtujuan);
                     placeId.push(poi[i]['place_id'])
                         //           alert(refPhoto);
                     var name = poi[i]['name'];
@@ -200,6 +208,13 @@ function HandleResponseEvent(objPoi) {
 function klikRowutama() {
     var segSelectedIndex = segTourist.selectedIndex[1];
     kony.store.setItem("place_id", placeId[segSelectedIndex]);
+    var dataPosisi = {
+        latasal: latitude,
+        lngasal: longitude,
+        latakhir: latTujuan[segSelectedIndex],
+        lngakhir: longTujuan[segSelectedIndex]
+    };
+    kony.store.setItem("direction", dataPosisi);
     var ntf = new kony.mvc.Navigation("frmDetailPlace");
     ntf.navigate();
 }
