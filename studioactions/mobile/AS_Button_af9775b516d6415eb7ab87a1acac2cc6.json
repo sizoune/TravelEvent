@@ -1,23 +1,23 @@
 {
-    "AS_Button_d29e7d0bd47544d0abde8d5aa1883f15": {
-        "id": "AS_Button_d29e7d0bd47544d0abde8d5aa1883f15",
+    "AS_Button_af9775b516d6415eb7ab87a1acac2cc6": {
+        "id": "AS_Button_af9775b516d6415eb7ab87a1acac2cc6",
         "type": "ACTION_SEQUENCE",
         "params": [{
             "datatype": "collection",
             "name": "eventobject"
         }],
         "contextObj": {
-            "name": "frmSignUp",
+            "name": "frmLogin",
             "type": "forms",
             "platform": "",
-            "KUID": "d592a1fe9cfa4bf3a9e7322f0cb592c6"
+            "KUID": "a71509ef519045d788bd9159bf010714"
         },
         "language": "js",
         "actions": [{
-            "id": "INVOKE_FUNCTION___a92bd3de5a7c4569882554c1357620d5",
+            "id": "INVOKE_FUNCTION___d9cc309170ff448a944f4f0561db056e",
             "type": "INVOKE_FUNCTION",
-            "sequenceKUID": "signup",
-            "display": "signup",
+            "sequenceKUID": "login",
+            "display": "login",
             "inputparams": [],
             "parentId": null,
             "callbackType": null,

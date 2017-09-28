@@ -114,7 +114,7 @@ define(function() {
             "height": "85%",
             "id": "btnSearchSelection",
             "isVisible": true,
-            "onClick": controller.Action15062598369683671,
+            "onClick": controller.Action15065818647064141,
             "skin": "sknBtn018ad1",
             "text": "Search",
             "top": "5%",

@@ -37,7 +37,8 @@
     },
     "children": [
         "btnForgotPassoword",
-        "btnLogin"
+        "btnLogin",
+        "btnSign"
     ],
     "clipbounds": true,
     "containerweight": 100,

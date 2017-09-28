@@ -28,7 +28,8 @@
     "canUpdateUI": true,
     "children": [
         "flxLogo",
-        "flxContentSignup"
+        "flxContentSignup",
+        "lblSignUp"
     ],
     "containerweight": 100,
     "controllerInfo": {
@@ -41,7 +42,7 @@
     "desktopweb": {
         "needAppMenu": false
     },
-    "device": "iPhone6",
+    "device": "GalaxyS5",
     "displayorientation": 1,
     "enabledforidletimeout": false,
     "id": "frmSignUp",
@@ -81,11 +82,11 @@
     "name": "kony.ui.Form2",
     "needappmenu": true,
     "paddinginpixel": false,
-    "platform": "iphone",
+    "platform": "android",
     "prevDevice": "iPhone6",
     "prevPlatform": "iphone",
     "retainscrollposition": false,
-    "shellCSS": "iOS_iPhone6",
+    "shellCSS": "and_GalaxyS5",
     "snapgridsize": 10,
     "snaptogrid": true,
     "spaan": {

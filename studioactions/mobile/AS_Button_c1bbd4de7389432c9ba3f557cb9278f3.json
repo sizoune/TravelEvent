@@ -14,6 +14,7 @@
         },
         "language": "js",
         "actions": [{
+<<<<<<< HEAD
             "id": "NAVIGATE_TO_FORM___d9472e51b24c4903ade4c43009cae1e7",
             "type": "NAVIGATE_TO_FORM",
             "formId": "frmTourist",
@@ -21,6 +22,14 @@
             "mappings": {},
             "mappingsOrder": [],
             "parentId": "",
+=======
+            "id": "INVOKE_FUNCTION___bbcff7c56a4e4f50a875538714f64989",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "login",
+            "display": "login",
+            "inputparams": [],
+            "parentId": null,
+>>>>>>> d8d75f77f5cc5274fadb98a2e27a95bc6b3ac25f
             "callbackType": null,
             "enableMappingEditor": true
         }]

@@ -38,7 +38,7 @@ define("frmLogin", function() {
                 "isVisible": true,
                 "layoutType": kony.flex.FLOW_VERTICAL,
                 "left": "0dp",
-                "top": "30%",
+                "top": "40%",
                 "width": "100%",
                 "zIndex": 1
             }, {}, {});
@@ -226,8 +226,8 @@ define("frmLogin", function() {
                 "id": "btnLogin",
                 "isVisible": true,
                 "left": "2dp",
-                "onClick": controller.AS_Button_c1bbd4de7389432c9ba3f557cb9278f3,
-                "skin": "CopyslButtonGlossBlue0c280d85c51524d",
+                "onClick": controller.AS_Button_af9775b516d6415eb7ab87a1acac2cc6,
+                "skin": "sknSign",
                 "text": "LOGIN",
                 "top": "10%",
                 "width": "260dp",
@@ -238,9 +238,50 @@ define("frmLogin", function() {
                 "padding": [0, 0, 0, 0],
                 "paddingInPixel": false
             }, {});
-            flxButton.add(btnForgotPassoword, btnLogin);
+            var btnSign = new kony.ui.Button({
+                "focusSkin": "CopyslButtonGlossBlue0ebcdd264e55846",
+                "height": "50dp",
+                "id": "btnSign",
+                "isVisible": true,
+                "left": "2dp",
+                "onClick": controller.AS_Button_iac40618c4fa4f7c92c920a5a90ce550,
+                "skin": "sknSign1",
+                "text": "SIGN UP",
+                "top": "5%",
+                "width": "260dp",
+                "zIndex": 1
+            }, {
+                "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+                "displayText": true,
+                "padding": [0, 0, 0, 0],
+                "paddingInPixel": false
+            }, {});
+            flxButton.add(btnForgotPassoword, btnLogin, btnSign);
             flxContentLogin.add(flxUsername, flxPassword, flxButton);
-            this.add(flxLogo, flxContentLogin);
+            var lblSignUp = new kony.ui.Label({
+                "centerX": "50%",
+                "centerY": "32%",
+                "height": 40,
+                "id": "lblSignUp",
+                "isVisible": true,
+                "left": "144dp",
+                "skin": "CopyslLabel0f226ccf304a14b",
+                "text": "LOGIN",
+                "textStyle": {
+                    "letterSpacing": 0,
+                    "strikeThrough": false
+                },
+                "top": "192dp",
+                "width": "40%",
+                "zIndex": 1
+            }, {
+                "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+                "padding": [0, 0, 0, 0],
+                "paddingInPixel": false
+            }, {
+                "textCopyable": false
+            });
+            this.add(flxLogo, flxContentLogin, lblSignUp);
         };
         return [{
             "addWidgets": addWidgetsfrmLogin,

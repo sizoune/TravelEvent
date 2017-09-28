@@ -563,7 +563,7 @@
     <attributes name="Videos_Library_Access" value="true"/>
     <attributes name="wp8enforceMaxMemory" value="false"/>
     <attributes name="wp10codeGeneration" value="false"/>
-    <attributes name="build" value="release"/>
+    <attributes name="build" value="debug"/>
     <attributes name="certs_key_store_type" value="JKS"/>
     <attributes name="spaandroidtab800basefontsize" value="12"/>
     <attributes name="cloud_env_GUID" value=""/>

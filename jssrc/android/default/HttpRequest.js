@@ -102,6 +102,7 @@ function HandleResponseSign(obj) {
                 flag = 0;
                 kony.application.dismissLoadingScreen();
                 var ntf = new kony.mvc.Navigation("frmLogin");
+                kony.store.setItem("status", "berhasil");
                 ntf.navigate();
             }
             return;
@@ -146,7 +147,7 @@ function HandleResponseLogin(obj) {
                 flag = 0;
                 kony.application.dismissLoadingScreen();
                 kony.store.setItem("userData", jsonObj);
-                var ntf = new kony.mvc.Navigation("frmDetailPlace");
+                var ntf = new kony.mvc.Navigation("frmTourist");
                 ntf.navigate();
             }
             return;

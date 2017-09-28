@@ -33,12 +33,12 @@ define("frmSignUp", function() {
             var flxContentSignup = new kony.ui.FlexContainer({
                 "autogrowMode": kony.flex.AUTOGROW_NONE,
                 "clipBounds": true,
-                "height": "70%",
+                "height": "60%",
                 "id": "flxContentSignup",
                 "isVisible": true,
                 "layoutType": kony.flex.FLOW_VERTICAL,
                 "left": "0dp",
-                "top": "30%",
+                "top": "40%",
                 "width": "100%",
                 "zIndex": 1
             }, {}, {});
@@ -357,7 +357,7 @@ define("frmSignUp", function() {
                 "isVisible": true,
                 "left": "2dp",
                 "onClick": controller.AS_Button_d29e7d0bd47544d0abde8d5aa1883f15,
-                "skin": "CopyslButtonGlossBlue0c280d85c51524d",
+                "skin": "sknSign",
                 "text": "SIGN UP",
                 "top": "10%",
                 "width": "260dp",
@@ -368,9 +368,50 @@ define("frmSignUp", function() {
                 "padding": [0, 0, 0, 0],
                 "paddingInPixel": false
             }, {});
-            flxButton.add(btnSignup);
+            var btnBack = new kony.ui.Button({
+                "focusSkin": "CopyslButtonGlossBlue0hff419da346946",
+                "height": "50dp",
+                "id": "btnBack",
+                "isVisible": true,
+                "left": "2dp",
+                "onClick": controller.AS_Button_b5afc048f49a476f91dfc6fd1ffe8dbf,
+                "skin": "CopyslButtonGlossBlue0ibb01e807eb946",
+                "text": "BACK",
+                "top": "5%",
+                "width": "260dp",
+                "zIndex": 1
+            }, {
+                "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+                "displayText": true,
+                "padding": [0, 0, 0, 0],
+                "paddingInPixel": false
+            }, {});
+            flxButton.add(btnSignup, btnBack);
             flxContentSignup.add(flxFullName, flxEmail, flxUsername, flxPassword, flxButton);
-            this.add(flxLogo, flxContentSignup);
+            var lblSignUp = new kony.ui.Label({
+                "centerX": "50%",
+                "centerY": "32%",
+                "height": 40,
+                "id": "lblSignUp",
+                "isVisible": true,
+                "left": "144dp",
+                "skin": "CopyslLabel0f226ccf304a14b",
+                "text": "SIGN UP",
+                "textStyle": {
+                    "letterSpacing": 0,
+                    "strikeThrough": false
+                },
+                "top": "192dp",
+                "width": "40%",
+                "zIndex": 1
+            }, {
+                "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+                "padding": [0, 0, 0, 0],
+                "paddingInPixel": false
+            }, {
+                "textCopyable": false
+            });
+            this.add(flxLogo, flxContentSignup, lblSignUp);
         };
         return [{
             "addWidgets": addWidgetsfrmSignUp,

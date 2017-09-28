@@ -33,7 +33,7 @@ define(function() {
             this.initGettersSetters.apply(this, arguments);
         }
     };
-    controller.Action15062598369683671 = function() {
+    controller.Action15065818647064141 = function() {
         if (this.onSearchSelectionClicked) {
             this.onSearchSelectionClicked.apply(this, arguments);
         }

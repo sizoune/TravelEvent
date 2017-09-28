@@ -22,11 +22,11 @@
         0,
         0
     ],
-    "_skin_": "s2a5c327f4194e8896e8a2f21254133a",
-    "_text_": "LOGIN",
+    "_skin_": "s942fd56abda486aac72d52822a1910a",
+    "_text_": "SIGN UP",
     "_top_": {
         "type": "string",
-        "value": "10%"
+        "value": "5%"
     },
     "_width_": {
         "type": "string",
@@ -36,12 +36,12 @@
     "containerweight": 100,
     "contentalignment": 5,
     "displaytext": true,
-    "focusskin": "s7654f2316f648da82c13553d696f874",
-    "id": "btnLogin",
-    "ide_onClick": "AS_Button_af9775b516d6415eb7ab87a1acac2cc6",
+    "focusskin": "sd633e02d4ce4efba9dc52327441eed8",
+    "id": "btnSign",
+    "ide_onClick": "AS_Button_iac40618c4fa4f7c92c920a5a90ce550",
     "info": null,
     "isvisible": true,
-    "kuid": "f7d5f4f4c73c47f199cabe6beb6404ad",
+    "kuid": "ad908bee0b734833aa28820c9ec1024e",
     "name": "kony.ui.Button",
     "parent": "flxButton",
     "pf": "frmLogin",

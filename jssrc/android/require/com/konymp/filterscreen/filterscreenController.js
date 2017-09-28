@@ -9,7 +9,7 @@ define(function() {
             this.initGettersSetters.apply(this, arguments);
         }
     };
-    controller.Action15062598356939964 = function() {
+    controller.Action15065818632162723 = function() {
         if (this.cancelFilter) {
             this.cancelFilter.apply(this, arguments);
         }

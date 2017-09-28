@@ -1,0 +1,22 @@
+{
+    "AS_Button_f1eba07a92714afbad66f5a118fb62f5": {
+        "id": "AS_Button_f1eba07a92714afbad66f5a118fb62f5",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___a6e55666c2e24d96bd1cf58be3e38fb0",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmSignUp",
+            "formKUID": "d592a1fe9cfa4bf3a9e7322f0cb592c6",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true
+        }]
+    }
+}

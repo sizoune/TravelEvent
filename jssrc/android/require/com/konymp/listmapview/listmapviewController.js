@@ -21,12 +21,12 @@ define(function() {
             this.initGettersSetters.apply(this, arguments);
         }
     };
-    controller.Action15062598361576173 = function() {
+    controller.Action15065818637932759 = function() {
         if (this.onMapClick) {
             this.onMapClick.apply(this, arguments);
         }
     }
-    controller.Action15062598362498154 = function() {
+    controller.Action15065818639578965 = function() {
         if (this.getCurrentLocation) {
             this.getCurrentLocation.apply(this, arguments);
         }
