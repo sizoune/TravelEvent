@@ -44,6 +44,7 @@
     "enablescrolling": true,
     "focusskin": "s6e98b8e89d34b69aeef834d4c067c34",
     "id": "flxUser",
+    "ide_onClick": "AS_FlexContainer_b352b8cfd2d5439e9a51ddc5eb8b08d4",
     "info": null,
     "isvisible": true,
     "kuid": "ca2517ad9fb24d4d80853408b99861ba",

@@ -15,6 +15,7 @@ define({
     AS_Form_a3eb455aab42470caeb25670efea35ee: function AS_Form_a3eb455aab42470caeb25670efea35ee(eventobject) {
         var self = this;
 
+        function MOVE_ACTION____ce0247f9473345788ed84bc01063c766_Callback() {}
         function MOVE_ACTION____cd770cd82724494e8a9b92b1aabefdf6_Callback() {}
         self.view.flxContent.animate(
         kony.ui.createAnimation({
@@ -31,6 +32,22 @@ define({
             "duration": 1
         }, {
             "animationEnd": MOVE_ACTION____cd770cd82724494e8a9b92b1aabefdf6_Callback
+        });
+        self.view.flxLogo.animate(
+        kony.ui.createAnimation({
+            "100": {
+                "top": "5%",
+                "stepConfig": {
+                    "timingFunction": kony.anim.EASE
+                }
+            }
+        }), {
+            "delay": 0.2,
+            "iterationCount": 1,
+            "fillMode": kony.anim.FILL_MODE_FORWARDS,
+            "duration": 1
+        }, {
+            "animationEnd": MOVE_ACTION____ce0247f9473345788ed84bc01063c766_Callback
         });
     }
 });

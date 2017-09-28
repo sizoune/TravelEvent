@@ -37,6 +37,7 @@
     "children": [
         "flxBackEvents",
         "flxBackTourist",
+        "flxBackUser",
         "flxTourist",
         "flxEvents",
         "flxUser"

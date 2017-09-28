@@ -104,6 +104,22 @@
             "parentId": null,
             "callbackType": null,
             "widgetPath": "this.view.flxBackTourist"
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled___e4a771a3cd5540b69da704238da96979",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "frmTourist",
+            "widgetId": "flxBackUser",
+            "propertyName": "isVisible",
+            "propertyValue": "false",
+            "itemKUID": "b88cf7bacfd246c4a7b0b15fb902e069",
+            "widgetKUID": "d10611821df54999a58ec3d04773c1d3",
+            "isSkinProperty": false,
+            "wType": "FlexContainer",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null,
+            "widgetPath": "this.view.flxBackUser"
         }]
     }
 }

@@ -2,8 +2,13 @@ define({
     /*
       This is an auto generated file and any modifications to it may result in corruption of the action sequence.
     */
-    AS_Button_c1bbd4de7389432c9ba3f557cb9278f3: function AS_Button_c1bbd4de7389432c9ba3f557cb9278f3(eventobject) {
+    AS_Button_af9775b516d6415eb7ab87a1acac2cc6: function AS_Button_af9775b516d6415eb7ab87a1acac2cc6(eventobject) {
         var self = this;
         return login.call(this);
+    },
+    AS_Button_iac40618c4fa4f7c92c920a5a90ce550: function AS_Button_iac40618c4fa4f7c92c920a5a90ce550(eventobject) {
+        var self = this;
+        var ntf = new kony.mvc.Navigation("frmSignUp");
+        ntf.navigate();
     }
 });

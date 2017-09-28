@@ -9,33 +9,11 @@
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
                 "src": "imagedrag.png"
             },
-            "lblDatenTime": {
+            "lbDistance": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "Label"
             },
-            "lblDistance": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
-            },
-            "lblNama": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
-            },
-            "lblPrice": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
-            }
-        },
-        {
-            "imgEvents": {
-                "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
-            },
-            "lblDatenTime": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
-            },
-            "lblDistance": {
+            "lbPrice": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "Label"
             },
@@ -53,11 +31,33 @@
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
                 "src": "imagedrag.png"
             },
-            "lblDatenTime": {
+            "lbDistance": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "Label"
             },
-            "lblDistance": {
+            "lbPrice": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblNama": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblPrice": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            }
+        },
+        {
+            "imgEvents": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "lbDistance": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lbPrice": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "Label"
             },
@@ -154,7 +154,7 @@
     "selectedindex": null,
     "selectedindices": null,
     "selecteditems": null,
-    "selectedsectionindex": null,
+    "selectedsectionindex": 0,
     "selectionbehavior": "default",
     "separatorcolor": "64646400",
     "separatorrequired": true,
@@ -165,8 +165,8 @@
     "widgetalignment": 5,
     "widgetdatamap": {
         "imgEvents": "imgEvents",
-        "lblDatenTime": "lblDatenTime",
-        "lblDistance": "lblDistance",
+        "lbDistance": "lbDistance",
+        "lbPrice": "lbPrice",
         "lblNama": "lblNama",
         "lblPrice": "lblPrice"
     },

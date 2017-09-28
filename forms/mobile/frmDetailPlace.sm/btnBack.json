@@ -1,0 +1,50 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s21710fd0d984adfb706a12024251779",
+    "_text_": "Kembali",
+    "_width_": {
+        "type": "string",
+        "value": "175dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s156239884ac443f86bc7941e9f3083f",
+    "id": "btnBack",
+    "ide_onClick": "AS_Button_j05aa1b1b99d48e69408304fd48dd4e1",
+    "info": null,
+    "isvisible": true,
+    "kuid": "d4eb65f58dac4e7e9746a8285a478f4f",
+    "name": "kony.ui.Button",
+    "parent": "flxUtama",
+    "pf": "frmDetailPlace",
+    "wType": "Button",
+    "zindex": 5
+}

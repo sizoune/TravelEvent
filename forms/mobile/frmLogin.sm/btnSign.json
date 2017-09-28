@@ -1,0 +1,50 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "2dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s942fd56abda486aac72d52822a1910a",
+    "_text_": "SIGN UP",
+    "_top_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "260dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sd633e02d4ce4efba9dc52327441eed8",
+    "id": "btnSign",
+    "ide_onClick": "AS_Button_iac40618c4fa4f7c92c920a5a90ce550",
+    "info": null,
+    "isvisible": true,
+    "kuid": "ad908bee0b734833aa28820c9ec1024e",
+    "name": "kony.ui.Button",
+    "parent": "flxButton",
+    "pf": "frmLogin",
+    "wType": "Button",
+    "zindex": 1
+}

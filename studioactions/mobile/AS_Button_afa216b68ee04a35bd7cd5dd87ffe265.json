@@ -1,0 +1,26 @@
+{
+    "AS_Button_afa216b68ee04a35bd7cd5dd87ffe265": {
+        "id": "AS_Button_afa216b68ee04a35bd7cd5dd87ffe265",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmSignUp",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d592a1fe9cfa4bf3a9e7322f0cb592c6"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_d3e6e02db0e942e39354cb68e51f8e9e",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "signup",
+            "display": "signup",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null
+        }]
+    }
+}

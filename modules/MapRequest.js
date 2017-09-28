@@ -217,3 +217,13 @@ function klikRowutama() {
   ntf.navigate();
 }
 
+function cekAuth(){
+  var status = kony.store.getItem("status");
+  if (status == "berhasil"){
+    alert("Anda sudah login");
+  }   
+  else{
+    var ntf = new kony.mvc.Navigation("frmOptionLoginSingup");
+  	ntf.navigate();
+  }
+}

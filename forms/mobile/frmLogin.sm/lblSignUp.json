@@ -3,12 +3,12 @@
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_height_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "number",
+        "value": "40"
     },
     "_left_": {
         "type": "string",
-        "value": "88dp"
+        "value": "144dp"
     },
     "_margin_": [
         1,
@@ -22,15 +22,15 @@
         0,
         0
     ],
-    "_skin_": "sde62c3c634444cd96c39f8fa5f7d9b5",
-    "_text_": "Label",
+    "_skin_": "s6065731444d4a46b2220a8c28af6be8",
+    "_text_": "LOGIN",
     "_top_": {
         "type": "string",
-        "value": "33dp"
+        "value": "192dp"
     },
     "_width_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "40%"
     },
     "_wrapping_": 2,
     "android": {
@@ -40,10 +40,17 @@
         }
     },
     "canUpdateUI": true,
-    "containerId": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "32%"
+    },
     "containerweight": 100,
-    "contentalignment": 4,
-    "id": "lblDistance",
+    "contentalignment": 5,
+    "id": "lblSignUp",
     "info": null,
     "ipad": {
         "psp": {
@@ -55,12 +62,11 @@
             "wrapping": 2
         }
     },
-    "isSegmentChild": true,
     "isvisible": true,
-    "kuid": "b5b0b2fae2264f2a943bfb47d47db6cd",
+    "kuid": "dcfb4920c30e40d5a850b5a6a5b28281",
     "name": "kony.ui.Label",
-    "parent": "CopyFBox0c8a19abc487a41",
-    "pf": "CopyFBox0c8a19abc487a41",
+    "parent": "frmLogin",
+    "pf": "frmLogin",
     "tooltip": "",
     "wType": "Label",
     "zindex": 1

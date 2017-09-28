@@ -1,0 +1,30 @@
+{
+    "AS_Segment_h9a106c880784e7c835e46cd0e27681b": {
+        "id": "AS_Segment_h9a106c880784e7c835e46cd0e27681b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmTourist",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b88cf7bacfd246c4a7b0b15fb902e069"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__i11a7683552d4be3ab137f590ddacf53",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "klikRowutama();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -100,7 +100,7 @@
     "showscrollbars": false,
     "swipeContext": {
         "currentPage": 0,
-        "imageWidth": 1080,
+        "imageWidth": 750,
         "widthRatio": 0
     },
     "viewtype": "pageview",

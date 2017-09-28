@@ -42,6 +42,36 @@
             "parentId": null,
             "callbackType": null,
             "widgetPath": "this.view.flxContent"
+        }, {
+            "id": "MOVE_ACTION____ce0247f9473345788ed84bc01063c766",
+            "type": "MOVE_ACTION",
+            "itemType": "FORM",
+            "itemId": "frmOptionLoginSignup",
+            "widgetId": "flxLogo",
+            "itemKUID": "i634fb3834d4465da80f2022b8c66296",
+            "widgetKUID": "d09d40a56a4541e5944daf9f50ec9b3b",
+            "wType": "FlexContainer",
+            "animationObject": {
+                "top": "5%",
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                }
+            },
+            "config": {
+                "delay": "200",
+                "iterationCount": 1,
+                "fillMode": "kony.anim.FILL_MODE_FORWARDS",
+                "duration": "1000"
+            },
+            "start": "Immediately",
+            "parentAnimation": "MOVE_ACTION____cd770cd82724494e8a9b92b1aabefdf6",
+            "animationId": "MOVE_ACTION____ce0247f9473345788ed84bc01063c766",
+            "displayAnimationId": "MOVE_ACTION____ce0247f9473345788ed84bc01063c766",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null,
+            "widgetPath": "this.view.flxLogo"
         }]
     }
 }
